@@ -1,3 +1,7 @@
+:root {
+  --accent-color: #0cc7ae;
+}
+
 .reviews-section {
   display: flex;
   flex-direction: column;
@@ -13,8 +17,7 @@
 }
 
 .reviews-heading {
-  font-size: 4rem;
-  margin-bottom: 20px;
+  font-size: 3rem;
   color: #333;
   font-weight: 700;
 }
@@ -24,79 +27,69 @@
 }
 
 .reviews-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 3rem;
-  max-width: 1400px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.slick-track {
+  display: flex !important;
+  gap: 1rem;
 }
 
 .review-card {
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 30px;
-  width: 100%;
+  padding: 20px;
+  min-width: 280px;
   max-width: 400px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-  transition: transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
   text-align: left;
-  font-size: 1.2rem;
 }
 
 .review-card:hover {
-  transform: translateY(-7px);
+  transform: translateY(-5px);
   border: 2px solid var(--accent-color);
 }
 
 .review-feedback {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-style: italic;
-  margin-bottom: 15px;
   color: #444;
 }
 
 .review-name {
   font-weight: bold;
   color: #222;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
 }
 
 .review-role {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: #666;
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
   .reviews-heading {
-    font-size: 3.5rem;
-  }
-
-  .reviews-container {
-    gap: 2rem;
+    font-size: 2.5rem;
   }
 
   .review-card {
-    max-width: 90%;
-    padding: 25px;
-    font-size: 1.1rem;
+    max-width: 300px;
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 768px) {
   .reviews-heading {
-    font-size: 4rem; /* Change from 3rem or 3.5rem */
-  }
-  
-  .reviews-container {
-    flex-direction: column;
-    align-items: center;
+    font-size: 2.2rem;
   }
 
   .review-card {
-    max-width: 400px; /* Increase from 300px */
-    padding: 30px; /* Increase padding for a larger appearance */
-    font-size: 1.2rem;
+    max-width: 100%;
+    padding: 15px;
+    font-size: 1rem;
   }
 }
