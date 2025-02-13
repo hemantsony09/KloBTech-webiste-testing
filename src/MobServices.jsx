@@ -1,6 +1,8 @@
-import React from "react";
+
 import { Link } from "react-router-dom"; // Import Link from React Router
 import { Helmet } from "react-helmet-async"; // For SEO meta tags
+
+// Importing images properly
 import cmsImg from "./CMSService/assets/cms.png";
 import webdevImg from "./Web-Development/Assets/webdev.png";
 import mobileImg from "./Mobile-Development/assets/mobile.png";
@@ -8,8 +10,8 @@ import btbsImg from "./services/assets/b2b.png";
 import recruitImg from "./services/assets/recruitment.png";
 import ecommerceImg from "./services/assets/ecommerce.png";
 import educationImg from "./services/assets/education.png";
+import digitalImg from "./digitalmarketing/assets/digital.png";
 
-// Updated services array with descriptive links
 const services = [
   {
     id: 1,
@@ -27,7 +29,7 @@ const services = [
   },
   {
     id: 3,
-    image: "/digital.png",
+    image: digitalImg,
     title: "Digital Marketing",
     link: "/digitalmarketing",
     description: "Boost your online presence with our digital marketing strategies."
@@ -80,7 +82,7 @@ const ServicePanel = () => {
         <meta name="author" content="YourCompanyName" />
         {/* JSON-LD Structured Data */}
         <script type="application/ld+json">
-          {JSON.stringify({
+          {`{
             "@context": "https://schema.org",
             "@type": "Service",
             "name": "Web & App Development Services",
@@ -91,7 +93,7 @@ const ServicePanel = () => {
             "serviceType": "Software Development",
             "description": "Our services include mobile and web development, digital marketing, and CMS solutions.",
             "areaServed": "Worldwide"
-          })}
+          }`}
         </script>
       </Helmet>
 
@@ -118,7 +120,7 @@ const ServicePanel = () => {
             {/* Link wrapper around card */}
             <div
               className="bg-[#f5f5f7] rounded-[3rem] flex flex-col items-center justify-between px-6 py-10 w-[330px] h-[270px] shadow-sm 
-              transition-transform duration-300 group-hover:shadow-xl group-hover:scale-105 transform hover:scale-105"
+              transition-transform duration-300 hover:shadow-xl hover:scale-105"
             >
               <img
                 src={service.image}
@@ -139,7 +141,7 @@ const ServicePanel = () => {
         ))}
       </div>
 
-      {/* New Heading and Button Section */}
+      {/* Contact Section */}
       <div className="text-center mt-12">
         <h3 className="text-3xl md:text-4xl font-bold text-gray-700 mb-4">
           Have something else in your mind?

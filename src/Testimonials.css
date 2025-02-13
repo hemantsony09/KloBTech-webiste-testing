@@ -84,7 +84,8 @@
 
 @media (max-width: 768px) {
   .reviews-heading {
-    font-size: 2.2rem;
+    font-size: 3.2rem;
+    margin: auto;
   }
 
   .review-card {
@@ -93,3 +94,4 @@
     font-size: 1rem;
   }
 }
+
