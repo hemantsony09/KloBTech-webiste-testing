@@ -35,8 +35,8 @@ function Information() {
           </h1>
 
           {/* Second paragraph with typing animation when in view */}
-          <h1 ref={ref} className="typing-text">
-            <span style={{ color: "var(--accent-color)" }}>KLob</span>Tech
+          <h1 ref={ref} className="typing-text text-[3rem] w-full text-nowrap ">
+            <span className="" style={{ color: "var(--accent-color)" }}>KLob</span>Tech
             {displayText}
             <span className="cursor">|</span>
           </h1>
