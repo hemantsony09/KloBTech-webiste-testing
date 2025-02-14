@@ -26,7 +26,7 @@ import React from "./Mobile-Development/React";
 import Flutter from "./Mobile-Development/Flutter";
 import Native from "./Mobile-Development/Native";
 import Ios from "./Mobile-Development/Ios";
-import FAQPage from "./Faq";
+import FAQPage from "./pages/FAQ/Faq.jsx";
 // import ScrollToTop from "./Components/ScrollToTop";
 import Reactjs from "./Web-Development/React";
 import Python from "./Web-Development/Python";

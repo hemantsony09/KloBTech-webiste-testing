@@ -1,13 +1,13 @@
 import { useState } from "react";
 import "./Faq.css";
-import faqImg from "./assets/faq.png";
-import Navbar from "./Nav/Navbar";
-import Footer from "./Components/Footer";
-import Logo from "./Components/logo";
-import FAQContact from "./Components/FAQContact";
-import Mobilefooter from "./Mobilefooter";
+import faqImg from "../../assets/faq.png";
+import Navbar from "../../Nav/Navbar";
+import Footer from "../../Components/Footer";
+import Logo from "../../Components/logo";
+import FAQContact from "../../Components/FAQContact";
+import Mobilefooter from "../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import BackToTopButton from "./BackToTopButton";
+import BackToTopButton from "../../BackToTopButton";
 import {motion} from 'framer-motion';
 const FAQPage = ({ accentColor = "#0dc7ae" }) => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
