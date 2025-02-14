@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import Mobilefooter from "../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Footer from "../Components/Footer/Footer";
-import Logo from "../Components/logo";
+import Logo from "../Components/Common/logo";
 import ScrollToTop from "../Components/ScrollToTop";
 
 const CareersPage = () => {

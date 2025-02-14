@@ -1,29 +1,21 @@
-import Navigation from "../Navigation";
-import Hero from "../Hero";
-import Circle from "../Circle";
+import Hero from "../Components/Hero/Hero";
+import Circle from "../Components/Orbit/Circle";
 // import CircleMotion from "./CircleMotion";
 // import RevolvingCircle from "./RevolvingCircle";
-import MainCircle from "../Orbit";
-import Information from "../Information";
+import MainCircle from "../Components/Orbit/Orbit";
+import Information from "../Components/Common/Information";
 import Services from "../Services";
-import ServicesTest from "../ServicesTest";
-import BlurBox from "../BlurBox";
-import CursorFollower from "../CursorFollower";
-import Testimonials from "../Testimonials";
+import Testimonials from "../Components/Testimonials/Testimonials";
 // import Navbar from "./StaffingSolutions";
 import Faq from "./FAQ/Faq";
 import Footer from "../Components/Footer/Footer";
 import FAQPage from "./FAQ/Faq";
-import BackToTopButton from "../BackToTopButton";
+import BackToTopButton from "../Components/MotionEffects/BackToTopButton";
 import { useMediaQuery } from "react-responsive";
 import Navbar from "../Components/Navbar/Navbar";
-import Review from "../Review";
-import ReviewCarousel from "../ReviewCarousel";
-import Logo from "../Components/logo";
+import Logo from "../Components/Common/logo";
 import Mobilefooter from "../Components/Footer/Mobilefooter";
-import ServicesShowcase from "../ServicesShowcase";
-import ServiceList from "../Components/MobileServices/ServiceList";
-import MobServices from "../MobServices";
+import MobServices from "../Components/Mobile/MobServices";
 
 function Home() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

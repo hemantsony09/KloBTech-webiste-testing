@@ -3,11 +3,11 @@
   import Navbar from "../../../Components/Navbar/Navbar";
   import { useMediaQuery } from "react-responsive";
   import ScrollToTop from "../../../Components/ScrollToTop";
-  import Logo from "../../../Components/logo";
+  import Logo from "../../../Components/Common/logo";
   import Mobilefooter from "../../../Components/Footer/Mobilefooter";
   import btbImg from "../../../assets/services/BTB/b2b.png";
   import { motion } from "framer-motion";
-  import BackToTopButton from "../../../BackToTopButton";
+  import BackToTopButton from "../../../Components/MotionEffects/BackToTopButton";
   
   import "../../../Services.css";
   

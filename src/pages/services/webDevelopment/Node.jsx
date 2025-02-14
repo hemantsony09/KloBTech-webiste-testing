@@ -5,8 +5,8 @@ import nodeImg from "../../../assets/services/webDevelopment/node.png";
 import Mobilefooter from "../../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Scrolltotop from "../../../Components/ScrollToTop";
-import Logo from "../../../Components/logo";
-import BackToTopButton from "../../../BackToTopButton";
+import Logo from "../../../Components/Common/logo";
+import BackToTopButton from "../../../Components/MotionEffects/BackToTopButton";
 
 function Node() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

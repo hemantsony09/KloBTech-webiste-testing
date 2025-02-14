@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import Navbar from "../Components/Navbar/Navbar";
 import FAQContact from "../Components/FAQContactQuestion";
 import ScrollToTop from "../Components/ScrollToTop";
-import BackToTopButton from "../BackToTopButton";
+import BackToTopButton from "../Components/MotionEffects/BackToTopButton";
 import { motion } from "framer-motion";
 
 function ContactUs() {

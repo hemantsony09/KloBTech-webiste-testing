@@ -4,11 +4,11 @@ import "./Faq.css";
 import faqImg from "../../assets/FAQ/faq.png";
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
-import Logo from "../../Components/logo";
+import Logo from "../../Components/Common/logo";
 import FAQContact from "../../Components/FAQContact";
 import Mobilefooter from "../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import BackToTopButton from "../../BackToTopButton";
+import BackToTopButton from "../../Components/MotionEffects/BackToTopButton";
 import {motion} from 'framer-motion';
 const FAQPage = ({ accentColor = "#0dc7ae" }) => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

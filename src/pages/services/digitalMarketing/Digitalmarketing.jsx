@@ -6,8 +6,8 @@ import ScrollToTop from "../../../Components/ScrollToTop";
 import Mobilefooter from "../../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import "../../../index.css";
-import Logo from "../../../Components/logo";
-import BackToTopButton from "../../../BackToTopButton";
+import Logo from "../../../Components/Common/logo";
+import BackToTopButton from "../../../Components/MotionEffects/BackToTopButton";
 
 function Digitalmarketing() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

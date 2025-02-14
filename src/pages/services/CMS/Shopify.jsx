@@ -4,8 +4,8 @@ import shopifyImg from "../../../assets/services/CMS/shopify.png";
 import ScrollToTop from "../../../Components/ScrollToTop";
 import Mobilefooter from "../../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Logo from "../../../Components/logo";
-import BackToTopButton from "../../../BackToTopButton";
+import Logo from "../../../Components/Common/logo";
+import BackToTopButton from "../../../Components/MotionEffects/BackToTopButton";
 import { motion } from "framer-motion";
 
 function Shopify() {

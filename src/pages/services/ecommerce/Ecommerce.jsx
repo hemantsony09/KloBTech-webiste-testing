@@ -4,8 +4,8 @@ import ecommerceImg from "../../../assets/services/ecommerce/ecommerce.png";
 import ScrollToTop from "../../../Components/ScrollToTop";
 import { useMediaQuery } from "react-responsive";
 import Mobilefooter from "../../../Components/Footer/Mobilefooter";
-import Logo from "../../../Components/logo";
-import BackToTopButton from "../../../BackToTopButton";
+import Logo from "../../../Components/Common/logo";
+import BackToTopButton from "../../../Components/MotionEffects/BackToTopButton";
 import { motion } from "framer-motion";
 import "../Services.css";
 

@@ -3,14 +3,14 @@ import { Link } from "react-router-dom"; // Import Link from React Router
 import { Helmet } from "react-helmet-async"; // For SEO meta tags
 
 // Importing images properly
-import cmsImg from "./assets/services/CMS/cms.png";
-import webdevImg from "./assets/services/webDevelopment/web.png";
-import mobileImg from "./assets/services/mobileDevelopment/mobile.png";
-import btbsImg from "./assets/services/BTB/b2b.png";
-import recruitImg from "./assets/services/recruitment/recruitment.png";
-import ecommerceImg from "./assets/services/ecommerce/ecommerce.png";
-import educationImg from "./assets/services/education/education.png";
-import digitalImg from "./assets/services/digitalMarketing/digital.png";
+import cmsImg from "../../assets/services/CMS/cms.png";
+import webdevImg from "../../assets/services/webDevelopment/web.png";
+import mobileImg from "../../assets/services/mobileDevelopment/mobile.png";
+import btbsImg from "../../assets/services/BTB/b2b.png";
+import recruitImg from "../../assets/services/Recruitment/recruitment.png";
+import ecommerceImg from "../../assets/services/ecommerce/ecommerce.png";
+import educationImg from "../../assets/services/education/education.png";
+import digitalImg from "../../assets/services/digitalMarketing/digital.png";
 
 const services = [
   {

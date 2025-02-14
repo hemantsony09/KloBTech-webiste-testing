@@ -13,8 +13,8 @@ import webdevImg from "../../../assets/services/webDevelopment/web.png";
 import Mobilefooter from "../../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Scrolltotop from "../../../Components/ScrollToTop";
-import Logo from "../../../Components/logo";
-import BackToTopButton from "../../../BackToTopButton";
+import Logo from "../../../Components/Common/logo";
+import BackToTopButton from "../../../Components/MotionEffects/BackToTopButton";
 
 import "../../../index.css";
 
