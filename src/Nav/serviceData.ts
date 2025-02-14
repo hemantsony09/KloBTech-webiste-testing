@@ -3,20 +3,20 @@ import { ServiceItem } from "./types";
 export const servicesData: ServiceItem[] = [
   {
     name: "Mobile Development",
-    path: "/mad",
+    path: "/mobile-development",
     subItems: [
-      { name: "React Development", path: "/mad/react" },
+      { name: "React Development", path: "/mobile-development/react" },
       {
         name: "Flutter Development",
-        path: "/mad/flutter",
+        path: "/mobile-development/flutter",
       },
       {
         name: "Android Development",
-        path: "/mad/android",
+        path: "/mobile-development/android",
       },
       {
         name: "iOS Development",
-        path: "/mad/ios",
+        path: "/mobile-development/ios",
       },
     ],
   },

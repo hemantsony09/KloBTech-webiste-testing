@@ -56,11 +56,11 @@ function App() {
           <Route path="/career" element={<Career />} />
 
           <Route path="/emp" element={<Emp />} />
-          <Route path="/mad" element={<Mad />} />
-          <Route path="/mad/react" element={<React />} />
-          <Route path="/mad/flutter" element={<Flutter />} />
-          <Route path="/mad/android" element={<Native />} />
-          <Route path="/mad/ios" element={<Ios />} />
+          <Route path="/mobile-development" element={<Mad />} />
+          <Route path="/mobile-development/react" element={<React />} />
+          <Route path="/mobile-development/flutter" element={<Flutter />} />
+          <Route path="/mobile-development/android" element={<Native />} />
+          <Route path="/mobile-development/ios" element={<Ios />} />
 
           <Route path="/fullStackDevelopment" element={<Fsd />} />
           <Route path="/fullStackDevelopment/react" element={<Reactjs />} />

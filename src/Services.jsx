@@ -21,7 +21,7 @@ function Services() {
           <span className="secondaryTitle">But are not limited to</span>
         </div>
         <div className="serviceArea">
-          <Link to="/mad">
+          <Link to="/mobile-development">
             <motion.div
               initial={{ opacity: 0, y: 250 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ function Services() {
                     borderRadius: "2rem",
                     border: "none",
                   }}
-                  to="/mad"
+                  to="/mobile-development"
                   className="learnService"
                 >
                   Learn More

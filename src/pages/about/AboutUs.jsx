@@ -61,7 +61,7 @@ const KlobTech = () => {
       icon: "",
       description:
         "KLobTech is a top mobile app development company, dedicated to delivering high-quality, customer-focused solutions on time and within budget.",
-      link: "/mad",
+      link: "/mobile-development",
     },
     {
       title: "CMS",

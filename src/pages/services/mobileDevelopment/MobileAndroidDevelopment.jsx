@@ -52,22 +52,22 @@ function Mad() {
     {
       title: "React Native",
       image: reactImg,
-      link: "/mad/react",
+      link: "/mobile-development/react",
     },
     {
       title: "Flutter",
       image: flutterImg,
-      link: "/mad/flutter",
+      link: "/mobile-development/flutter",
     },
     {
       title: "Android",
       image: androidImg,
-      link: "/mad/android",
+      link: "/mobile-development/android",
     },
     {
       title: "iOS",
       image: appleImg,
-      link: "/mad/ios",
+      link: "/mobile-development/ios",
     },
   ];
 

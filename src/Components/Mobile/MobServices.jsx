@@ -17,7 +17,7 @@ const services = [
     id: 1,
     image: mobileImg,
     title: "Mobile App Development",
-    link: "/mad",
+    link: "/mobile-development",
     description: "Explore our mobile app development services to build scalable and user-friendly applications."
   },
   {
