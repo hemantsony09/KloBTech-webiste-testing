@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Testimonials from "./Testimonials";
 // import AnimatedNavbar from "./AnimatedNavbar";
 import Emp from "./Emp";
-import Home from "./Home";
+import Home from "./pages/Home";
 import Mad from "./Mobile-Development/MobileAndroidDevelopment";
 import Fsd from "./Web-Development/FullStackDevelopment";
 import Amd from "./services/Amd";
@@ -43,7 +43,7 @@ import Digitalmarketing from "./digitalmarketing/Digitalmarketing";
 import ContactUs from "./ContactUs";
 import Tac from "./tac";
 import Career from "./Career/Career";
-import AboutUs from "./AboutUs";
+import AboutUs from "./pages/aboutUs/AboutUs.jsx";
 import Hiring from "./Hiring/Hiring";
 
 function App() {

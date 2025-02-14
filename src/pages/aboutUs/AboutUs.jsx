@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./AboutUs.css";
-import Navbar from "./Nav/Navbar";
-import Footer from "./Components/Footer";
-import BackToTopButton from "./BackToTopButton";
-import Mobilefooter from "./Mobilefooter";
+import Navbar from "../../Nav/Navbar";
+import Footer from "../../Components/Footer";
+import BackToTopButton from "../../BackToTopButton";
+import Mobilefooter from "../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Logo from "./Components/logo";
-import imgAbout from "./assets/stockAbout.jpg";
-import imgMission from "./assets/stockMission.jpg";
+import Logo from "../../Components/logo";
+import imgAbout from "../../assets/aboutUs/stockAbout.jpg";
+import imgMission from "../../assets/aboutUs/stockMission.jpg";
 import { Link } from "react-router-dom";
 
 const AnimatedCounter = ({ targetNumber }) => {
