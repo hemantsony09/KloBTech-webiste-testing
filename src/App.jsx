@@ -17,7 +17,7 @@ import Home from "./pages/Home";
 import Mad from "./pages/services/mobileDevelopment/MobileAndroidDevelopment.jsx";
 import Fsd from "./pages/services/webDevelopment/FullStackDevelopment.jsx";
 import Amd from "./services/Amd";
-import Btbs from "./services/Btbs";
+import Btbs from "./pages/services/Btb/Btbs.jsx";
 import Lgsa from "./services/Lgsa";
 import Mce from "./services/Mce";
 import Rs from "./services/Rs";

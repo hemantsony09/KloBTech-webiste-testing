@@ -1,15 +1,15 @@
 
-  import Footer from "../Components/Footer";
-  import Navbar from "../Nav/Navbar";
+  import Footer from "../../../Components/Footer";
+  import Navbar from "../../../Nav/Navbar";
   import { useMediaQuery } from "react-responsive";
-  import ScrollToTop from "../Components/ScrollToTop";
-  import Logo from "../Components/logo";
-  import Mobilefooter from "../Mobilefooter";
-  import btbImg from "./assets/b2b.png";
+  import ScrollToTop from "../../../Components/ScrollToTop";
+  import Logo from "../../../Components/logo";
+  import Mobilefooter from "../../../Mobilefooter";
+  import btbImg from "../../../assets/services/b2b.png";
   import { motion } from "framer-motion";
-  import BackToTopButton from "../BackToTopButton";
+  import BackToTopButton from "../../../BackToTopButton";
   
-  import "./Services.css";
+  import "../../../Services.css";
   
   function Btbs() {
     const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
