@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Navbar from "../../../Nav/Navbar";
 import Footer from "../../../Components/Footer";
-import aimlImg from "./Assets/ai.png";
+import aimlImg from "../../../assets/services/webDevelopment/ai.png";
 import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Scrolltotop from "../../../Components/ScrollToTop";
