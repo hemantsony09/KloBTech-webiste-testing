@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import Footer from "../Components/Footer";
-import Navbar from "../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import Navbar from "../../../Nav/Navbar";
 import digitalImg from "./assets/digital.png";
-import ScrollToTop from "../Components/ScrollToTop";
-import Mobilefooter from "../Mobilefooter";
+import ScrollToTop from "../../../Components/ScrollToTop";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import "../index.css";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import "../../../index.css";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
 function Digitalmarketing() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

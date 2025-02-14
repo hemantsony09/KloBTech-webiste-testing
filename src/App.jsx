@@ -39,7 +39,7 @@ import Shopify from "./CMSService/Shopify";
 import Wordpress from "./CMSService/Wordpress";
 import Ecommerce from "./services/Ecommerce";
 import Education from "./services/Education";
-import Digitalmarketing from "./digitalmarketing/Digitalmarketing";
+import Digitalmarketing from "./pages/services/digitalMarketing/Digitalmarketing.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import Tac from "./tac";
 import Career from "./Career/Career";

@@ -10,7 +10,7 @@ import btbsImg from "./services/assets/b2b.png";
 import recruitImg from "./services/assets/recruitment.png";
 import ecommerceImg from "./services/assets/ecommerce.png";
 import educationImg from "./services/assets/education.png";
-import digitalImg from "./digitalmarketing/assets/digital.png";
+import digitalImg from "./pages/services/digitalMarketing/assets/digital.png";
 
 const services = [
   {
