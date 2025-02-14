@@ -38,9 +38,9 @@ import Education from "./pages/services/education/Education.jsx";
 import Digitalmarketing from "./pages/services/digitalMarketing/Digitalmarketing.jsx";
 import ContactUs from "./pages/ContactUs.jsx";
 import Tac from "./tac";
-import Career from "./Career/Career";
+import Career from "./pages/Career.jsx";
 import AboutUs from "./pages/about/AboutUs.jsx";
-import Hiring from "./Hiring/Hiring";
+import Hiring from "./pages/Hiring.jsx";
 
 function App() {
   return (
