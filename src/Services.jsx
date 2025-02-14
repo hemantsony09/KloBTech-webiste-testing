@@ -5,9 +5,9 @@ import cmsImg from "./assets/services/CMS/cms.png";
 import webdevImg from "./assets/services/webDevelopment/web.png";
 import mobileImg from "./assets/services/mobileDevelopment/mobile.png";
 import btbsImg from "./assets/services/BTB/b2b.png";
-import recruitImg from "./services/assets/recruitment.png";
-import ecommerceImg from "./services/assets/ecommerce.png";
-import educationImg from "./services/assets/education.png";
+import recruitImg from "./assets/services/recruitment/recruitment.png";
+import ecommerceImg from "./assets/services/ecommerce/ecommerce.png";
+import educationImg from "./assets/services/education/education.png";
 
 function Services() {
   return (

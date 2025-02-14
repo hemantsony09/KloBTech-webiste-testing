@@ -1,46 +1,47 @@
-import Footer from "../Components/Footer";
-import Navbar from "../Nav/Navbar";
-import recruitmentImg from "./assets/recruitment.png";
-import Mobilefooter from "../Mobilefooter";
+import Footer from "../../../Components/Footer";
+import Navbar from "../../../Nav/Navbar";
+import ecommerceImg from "../../../assets/services/ecommerce/ecommerce.png";
+import ScrollToTop from "../../../Components/ScrollToTop";
 import { useMediaQuery } from "react-responsive";
-import ScrollToTop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Mobilefooter from "../../../Mobilefooter";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 import { motion } from "framer-motion";
+import "../Services.css";
 
-function Rs() {
+function Ecommerce() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   const features = [
     {
-      title: "Permanent Talent Acquisition",
+      title: "Product Listing",
       description:
-        "Our approach identifies candidates who align with your needs and long-term vision, helping you secure talent that drives growth and success.",
+        "Creating engaging, SEO-friendly product listings with compelling titles, detailed descriptions, and high-quality images to attract the right audience.",
     },
     {
-      title: "Project Staffing",
+      title: "Keyword Optimization",
       description:
-        "We focus on finding the right fit for both short-term and long-term projects, ensuring compatibility and the ideal match for your team.",
+        "Improving visibility with targeted keywords that rank your products higher and drive more traffic to your listings.",
     },
     {
-      title: "Consultant Advisory",
+      title: "Listing Health Optimization",
       description:
-        "We specialize in matching our clients with experienced and dedicated long-term consultants who seamlessly integrate into your organization.",
+        "Optimizing listing quality by addressing inventory, pricing, and compliance to ensure consistent visibility and performance.",
     },
     {
-      title: "Temporary Staffing Solutions",
+      title: "Deep Data Analysis",
       description:
-        "We provide skilled professionals for short-term needs, ensuring immediate productivity and seamless transitions to keep your projects on track.",
+        "Leveraging advanced analytics to uncover actionable insights and trends. From customer behavior to sales metrics, we provide data-driven strategies to optimize your e-commerce performance.",
     },
     {
-      title: "Executive Search",
+      title: "FBA Services",
       description:
-        "For leadership roles and critical positions, we focus on finding top-tier talent with the expertise and vision to drive your company forward.",
+        "Simplifying fulfillment with support for inventory, shipping, and returns, leveraging Amazon’s logistics for faster deliveries.",
     },
     {
-      title: "Talent Pool Management",
+      title: "Performance Marketing",
       description:
-        "We build and maintain a talent pool aligned with your business needs, giving you quick access to top candidates when the time comes.",
+        "Boosting your sales with targeted ad campaigns and ROI-driven marketing strategies. We help you maximize your advertising budget by reaching the right audience at the right time.",
     },
   ];
 
@@ -50,7 +51,7 @@ function Rs() {
       {!isMobile && (
         <>
           <div
-         >
+          >
             <Logo />
           </div>
           <BackToTopButton />
@@ -66,26 +67,22 @@ function Rs() {
           >
             <div>
               <img
-                src={recruitmentImg}
-                alt="Recruitment"
+                src={ecommerceImg}
+                alt="Ecommerce"
                 className="serviceHeroImg"
               />
             </div>
             <div className="heroInfo">
               <div className="heroTitleArea">
-                <h1 className="heroTitle">Recruitment Services</h1>
+                <h1 className="heroTitle">Ecommerce Services</h1>
               </div>
 
               <p className="heroDescription">
-                At KLobTech, we offer comprehensive recruitment services to help
-                businesses find the right talent for their needs. Our
-                experienced team specializes in sourcing, screening, and placing
-                skilled professionals across various industries. Whether you're
-                looking for temporary, permanent, or contract staffing
-                solutions, we tailor our approach to ensure a perfect match
-                between candidates and your business culture. With a focus on
-                quality and efficiency, we help you build strong, capable teams
-                that drive success and growth.
+                At KLobTech, we specialize in delivering innovative IT solutions
+                tailored to the dynamic needs of the e-commerce industry. From
+                scalable website development to seamless payment integration and
+                secure data management, we empower businesses to enhance their
+                online presence and drive customer engagement.
               </p>
             </div>
           </motion.div>
@@ -99,7 +96,7 @@ function Rs() {
           >
             <div className="serviceGridTitleContainer">
               <p className="serviceTitle">
-                Why Choose KLobTech for Recruitment Services?
+                Why Choose KLobTech for Ecommerce Services?
               </p>
             </div>
             <div className="gridArea">
@@ -154,23 +151,22 @@ function Rs() {
             <div className="flex flex-col items-center gap-6">
               <div className="w-40 h-40">
                 <img
-                  src={recruitmentImg}
-                  alt="Mobile Recruitment"
+                  src={ecommerceImg}
+                  alt="Ecommerce Mobile"
                   className="mobileHeroImg"
                 />
               </div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                  <span className="text-[#333333]">Recruitment Services</span>
+                  <span className="text-[#333333]">Ecommerce Services</span>
                 </h1>
                 <p className="text-2xl md:text-xl text-gray-600 max-w-3xl mx-auto leading-normal text-justify px-10">
-                  At KLobTech, we offer comprehensive recruitment services to
-                  help businesses find the right talent for their needs. Our
-                  experienced team specializes in sourcing, screening, and
-                  placing skilled professionals across various industries.
-                  Whether you're looking for temporary, permanent, or contract
-                  staffing solutions, we tailor our approach to ensure a perfect
-                  match between candidates and your business culture.
+                  At KLobTech, we specialize in delivering innovative IT
+                  solutions tailored to the dynamic needs of the e-commerce
+                  industry. From scalable website development to seamless
+                  payment integration and secure data management, we empower
+                  businesses to enhance their online presence and drive customer
+                  engagement.
                 </p>
               </div>
             </div>
@@ -186,7 +182,7 @@ function Rs() {
           >
             <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-10">
               Why Choose <span className="text-teal-500">KLobTech</span> for
-              Recruitment Services?
+              Ecommerce Services?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[85%] mx-auto">
               {features.map((feature, index) => (
@@ -216,4 +212,4 @@ function Rs() {
   );
 }
 
-export default Rs;
+export default Ecommerce; 

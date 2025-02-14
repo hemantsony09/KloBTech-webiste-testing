@@ -1,47 +1,47 @@
-import Footer from "../Components/Footer";
-import Navbar from "../Nav/Navbar";
-import ecommerceImg from "./assets/ecommerce.png";
-import ScrollToTop from "../Components/ScrollToTop";
+import Footer from "../../../Components/Footer";
+import Navbar from "../../../Nav/Navbar";
+import educationImg from "../../../assets/services/education/education.png";
+import ScrollToTop from "../../../Components/ScrollToTop";
 import { useMediaQuery } from "react-responsive";
-import Mobilefooter from "../Mobilefooter";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Mobilefooter from "../../../Mobilefooter";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 import { motion } from "framer-motion";
-import "./Services.css";
+import "../Services.css";
 
-function Ecommerce() {
+function Education() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   const features = [
     {
-      title: "Product Listing",
+      title: "Hands-On Learning",
       description:
-        "Creating engaging, SEO-friendly product listings with compelling titles, detailed descriptions, and high-quality images to attract the right audience.",
+        "Our internship programs provide real-world projects where you can apply your skills and gain practical experience.",
     },
     {
-      title: "Keyword Optimization",
+      title: "Industry Mentorship",
       description:
-        "Improving visibility with targeted keywords that rank your products higher and drive more traffic to your listings.",
+        "Interns benefit from mentorship by experienced professionals who guide them through real-world challenges.",
     },
     {
-      title: "Listing Health Optimization",
+      title: "Comprehensive Education",
       description:
-        "Optimizing listing quality by addressing inventory, pricing, and compliance to ensure consistent visibility and performance.",
+        "We bridge the gap between academic knowledge and industry requirements by offering education that is both relevant and practical.",
     },
     {
-      title: "Deep Data Analysis",
+      title: "Cutting-Edge Technologies",
       description:
-        "Leveraging advanced analytics to uncover actionable insights and trends. From customer behavior to sales metrics, we provide data-driven strategies to optimize your e-commerce performance.",
+        "Gain exposure to the latest technologies used in the IT industry, ensuring you stay ahead in your career.",
     },
     {
-      title: "FBA Services",
+      title: "Confidence in Career",
       description:
-        "Simplifying fulfillment with support for inventory, shipping, and returns, leveraging Amazon’s logistics for faster deliveries.",
+        "Our programs are designed to boost your confidence and prepare you for the competitive world of IT.",
     },
     {
-      title: "Performance Marketing",
+      title: "Skill Development",
       description:
-        "Boosting your sales with targeted ad campaigns and ROI-driven marketing strategies. We help you maximize your advertising budget by reaching the right audience at the right time.",
+        "Develop the skills necessary to thrive in the IT industry, from technical abilities to professional competencies.",
     },
   ];
 
@@ -51,7 +51,7 @@ function Ecommerce() {
       {!isMobile && (
         <>
           <div
-          >
+            >
             <Logo />
           </div>
           <BackToTopButton />
@@ -67,22 +67,23 @@ function Ecommerce() {
           >
             <div>
               <img
-                src={ecommerceImg}
-                alt="Ecommerce"
+                src={educationImg}
+                alt="Education Services"
                 className="serviceHeroImg"
               />
             </div>
             <div className="heroInfo">
               <div className="heroTitleArea">
-                <h1 className="heroTitle">Ecommerce Services</h1>
+                <h1 className="heroTitle">Education Services</h1>
               </div>
 
               <p className="heroDescription">
-                At KLobTech, we specialize in delivering innovative IT solutions
-                tailored to the dynamic needs of the e-commerce industry. From
-                scalable website development to seamless payment integration and
-                secure data management, we empower businesses to enhance their
-                online presence and drive customer engagement.
+                At KLobTech, we believe in nurturing future talent by providing
+                hands-on learning experiences through our internship programs.
+                Our comprehensive education initiatives are designed to bridge
+                the gap between academic knowledge and industry requirements.
+                Interns gain exposure to real-world projects, cutting-edge
+                technologies, and mentorship from experienced professionals.
               </p>
             </div>
           </motion.div>
@@ -96,7 +97,7 @@ function Ecommerce() {
           >
             <div className="serviceGridTitleContainer">
               <p className="serviceTitle">
-                Why Choose KLobTech for Ecommerce Services?
+                Why Choose KLobTech for Education Services?
               </p>
             </div>
             <div className="gridArea">
@@ -151,22 +152,19 @@ function Ecommerce() {
             <div className="flex flex-col items-center gap-6">
               <div className="w-40 h-40">
                 <img
-                  src={ecommerceImg}
-                  alt="Ecommerce Mobile"
+                  src={educationImg}
+                  alt="Education Mobile"
                   className="mobileHeroImg"
                 />
               </div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                  <span className="text-[#333333]">Ecommerce Services</span>
+                  <span className="text-[#333333]">Education Services</span>
                 </h1>
                 <p className="text-2xl md:text-xl text-gray-600 max-w-3xl mx-auto leading-normal text-justify px-10">
-                  At KLobTech, we specialize in delivering innovative IT
-                  solutions tailored to the dynamic needs of the e-commerce
-                  industry. From scalable website development to seamless
-                  payment integration and secure data management, we empower
-                  businesses to enhance their online presence and drive customer
-                  engagement.
+                  At KLobTech, we believe in nurturing future talent by
+                  providing hands-on learning experiences through our internship
+                  programs.
                 </p>
               </div>
             </div>
@@ -182,7 +180,7 @@ function Ecommerce() {
           >
             <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-10">
               Why Choose <span className="text-teal-500">KLobTech</span> for
-              Ecommerce Services?
+              Education Services?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[85%] mx-auto">
               {features.map((feature, index) => (
@@ -212,4 +210,4 @@ function Ecommerce() {
   );
 }
 
-export default Ecommerce; 
+export default Education;
