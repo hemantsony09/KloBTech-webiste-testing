@@ -1,46 +1,46 @@
 
 import { motion } from "framer-motion";
-import Navbar from "../Nav/Navbar";
-import Footer from "../Components/Footer";
-import appleImg from "./assets/apple.png";
-import Mobilefooter from "../Mobilefooter";
+import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import flutterImg from "./assets/flutter.png";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Scrolltotop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Scrolltotop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
-function Ios() {
+function Flutter() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const features = [
     {
-      title: "Custom iOS Development",
+      title: "Ideation and Strategy",
       description:
-        "KLobTech understands that your business is unique, and so are your app needs. Our expert iOS developers create personalized solutions designed to connect with your audience and achieve your specific goals.",
+        "Leverage Flutter’s potential with expert guidance from our team. We delve into your business goals, analyze market trends, and craft a strategic Flutter development plan to ensure your app’s success.",
     },
     {
-      title: "Advanced iOS Integration",
+      title: "Tailored App Solutions",
       description:
-        "Integrate the latest technologies into your app. Our developers bring in AI, AR/VR, and other modern features to elevate your iOS app’s functionality, making it more engaging and future-ready.",
+        "We design customized Flutter applications to meet your unique business needs. From streamlining operations to improving user engagement, our bespoke solutions are crafted to drive growth and mobility.",
     },
     {
-      title: "iPhone App Support",
+      title: "Cross-Platform Excellence",
       description:
-        "Our iOS app support services ensure your app remains top-performing. KLobTech provides reliable maintenance, updates, and continuous optimization to keep your app running smoothly across all devices.",
+        "Save time and resources with our Flutter cross-platform app development services. Delivering top-quality apps for Android and iOS, we ensure visually appealing designs and faster time to market.",
     },
     {
-      title: "iOS Solutions for Enterprises",
+      title: "Modern UX/UI Design",
       description:
-        "Unlock powerful, custom iOS solutions for your enterprise. KLobTech offers apps that integrate machine learning and cutting-edge technology to improve data analysis and streamline business operations.",
+        "With Flutter, we create sleek and intuitive designs that captivate users. Our focus on modern UX/UI enhances user experiences, fosters engagement, and strengthens customer retention.",
     },
     {
-      title: "App Upgrade & Extension",
+      title: "Seamless App Migration",
       description:
-        "Stay up-to-date with every new iOS update. KLobTech offers seamless upgrade and extension services that enhance your app’s capabilities and ensure it delivers the latest features.",
+        "Switch to Flutter effortlessly with our expert migration and upgrade services. We enhance your app’s performance and provide advanced features for improved control and scalability.",
     },
     {
-      title: "Effortless App Integration",
+      title: "Reliable Support Services",
       description:
-        "Maximize your app’s impact by seamlessly integrating it with your existing business systems. KLobTech ensures a smooth iOS app integration for faster growth, better functionality, and a broader reach.",
+        "At KLobTech, we go beyond development by offering dedicated maintenance and support. Keep your Flutter app running smoothly with regular updates, feature enhancements, and expert assistance.",
     },
   ];
 
@@ -49,14 +49,14 @@ function Ios() {
       {/* Desktop View */}
       {!isMobile && (
         <>
-          <div>
+          <div
+          >
             <Logo />
           </div>
           <BackToTopButton />
           <Scrolltotop />
           <Navbar />
 
-          {/* Hero Section */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -65,26 +65,27 @@ function Ios() {
             className="serviceHero"
           >
             <div>
-              <img src={appleImg} alt="iOS App Development" />
+              <img src={flutterImg} alt="Flutter" className="serviceHeroImg" />
             </div>
             <div className="heroInfo">
               <div className="heroTitleArea">
-                <h1 className="heroTitle">iOS Development</h1>
+                <h1 className="heroTitle">Flutter Development</h1>
               </div>
 
               <p className="heroDescription">
-                Choose KLobTech for top-tier iOS app development services. We
-                specialize in building apps for iPhone, iPad, Apple TV, and
-                Apple Watch. With our expertise, we deliver high-performance,
-                user-centric iOS applications designed to make an impact across
-                various Apple devices. Ready to elevate your business with
-                custom Apple app development solutions? Let’s make it happen
-                together!
+                At KLobTech, we are proud to be a trusted name in Flutter app
+                development. Our skilled in-house Flutter development team
+                specializes in turning your ideas into powerful, feature-rich
+                applications. Whether you need custom app solutions or seamless
+                cross-platform development, we deliver top-quality results at
+                competitive prices. Searching for a reliable partner to bring
+                your vision to life? Look no further! With KLobTech, your
+                journey to exceptional app development begins today. Let’s build
+                something extraordinary together!
               </p>
             </div>
           </motion.div>
 
-          {/* Features Section */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -94,7 +95,7 @@ function Ios() {
           >
             <div className="serviceGridTitleContainer">
               <p className="serviceTitle">
-                Why Choose KLobTech for iOS Development?
+                Why Choose KLobTech for Flutter Development?
               </p>
             </div>
             <div className="gridArea">
@@ -148,25 +149,27 @@ function Ios() {
             className="py-12 px-4 text-center bg-[#f3f3f3] rounded-3xl mx-8"
           >
             <div className="flex flex-col items-center gap-6">
-              <div className="w-48 h-48">
+              <div className="w-40 h-40">
                 <img
-                  src={appleImg}
+                  src={flutterImg}
                   alt="Mobile App Icon"
-                  className="w-full h-full object-cover"
+                  className="mobileHeroImg"
                 />
               </div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                  <span className="text-[#333333]">iOS Development</span>
+                  <span className="text-[#333333]">Flutter Development</span>
                 </h1>
                 <p className="text-2xl md:text-xl text-gray-600 max-w-3xl mx-auto leading-normal text-justify px-10">
-                  Choose KLobTech for top-tier iOS app development services. We
-                  specialize in building apps for iPhone, iPad, Apple TV, and
-                  Apple Watch. With our expertise, we deliver high-performance,
-                  user-centric iOS applications designed to make an impact
-                  across various Apple devices. Ready to elevate your business
-                  with custom Apple app development solutions? Let’s make it
-                  happen together!
+                  At KLobTech, we are proud to be a trusted name in Flutter app
+                  development. Our skilled in-house Flutter development team
+                  specializes in turning your ideas into powerful, feature-rich
+                  applications. Whether you need custom app solutions or
+                  seamless cross-platform development, we deliver top-quality
+                  results at competitive prices. Searching for a reliable
+                  partner to bring your vision to life? Look no further! With
+                  KLobTech, your journey to exceptional app development begins
+                  today. Let’s build something extraordinary together!
                 </p>
               </div>
             </div>
@@ -181,8 +184,8 @@ function Ios() {
             className="py-12 px-4 bg-white"
           >
             <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-              Why Choose <span className="text-teal-500">KLobTech</span> for iOS
-              Development?
+              Why Choose <span className="text-teal-500">KLobTech</span> for
+              Mobile App Development?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[85%] mx-auto">
               {features.map((feature, index) => (
@@ -212,4 +215,4 @@ function Ios() {
   );
 }
 
-export default Ios;
+export default Flutter;

@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async"; // For SEO meta tags
 // Importing images properly
 import cmsImg from "./CMSService/assets/cms.png";
 import webdevImg from "./Web-Development/Assets/webdev.png";
-import mobileImg from "./Mobile-Development/assets/mobile.png";
+import mobileImg from "./pages/services/mobileDevelopment/assets/mobile.png";
 import btbsImg from "./services/assets/b2b.png";
 import recruitImg from "./services/assets/recruitment.png";
 import ecommerceImg from "./services/assets/ecommerce.png";

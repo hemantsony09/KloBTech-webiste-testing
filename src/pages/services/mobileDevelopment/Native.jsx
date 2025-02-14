@@ -1,45 +1,45 @@
 import { motion } from "framer-motion";
-import Navbar from "../Nav/Navbar";
-import Footer from "../Components/Footer";
-import reactImg from "./assets/react.png";
-import Mobilefooter from "../Mobilefooter";
+import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import nativeImg from "./assets/android.png";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Scrolltotop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Scrolltotop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
-function React() {
+function Native() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const features = [
     {
-      title: "Strategic App Planning",
+      title: "App Strategy Consultation",
       description:
-        "Lay a strong foundation for your app development with our expert consultation services. We align your vision with an actionable development strategy.",
+        "Kickstart your app journey with expert guidance. We develop a clear, actionable plan that aligns with your business objectives and market opportunities, ensuring your success from day one.",
     },
     {
-      title: "Personalized App Solutions",
+      title: "Custom App Development",
       description:
-        "Empower your business with React Native apps. Our team delivers unique solutions crafted to enhance productivity and meet your specific business objectives.",
+        "Transform your ideas into reality with bespoke Android app development. Our solutions are designed to provide seamless performance, innovative features, and a superior user experience.",
     },
     {
-      title: "End-to-End Development",
+      title: "Engaging UI/UX Design",
       description:
-        "Experience the full spectrum of React Native development. From strategy and design to deployment, we deliver end-to-end solutions to ensure your app’s success.",
+        "Create stunning, intuitive designs that captivate users. We focus on user-centric interfaces that offer both style and functionality, ensuring your app stands out in a competitive market.",
     },
     {
-      title: "Accelerated MVP Delivery",
+      title: "App Enhancement Services",
       description:
-        "Bring your ideas to life with our streamlined React Native MVP development. Perfect for startups, our approach helps you test market potential and engage users rapidly.",
+        "Boost your app’s performance with our upgrade and extension services. We add new features and improve functionality to ensure your app evolves with market trends and user needs.",
     },
     {
-      title: "Cross-Platform Expertise",
+      title: "Seamless App Integration",
       description:
-        "Expand your digital footprint with powerful apps for both Android and iOS. Our React Native experts create interactive experiences to captivate users across platforms.",
+        "Automate processes and improve efficiency by integrating AI-powered features into your Android app. Our seamless integrations enhance functionality and streamline operations effortlessly.",
     },
     {
-      title: "Seamless App Migration",
+      title: "Reliable Support Services",
       description:
-        "Modernize your mobile solutions with our hassle-free migration and upgrade services. Transition to React Native effortlessly and stay ahead with the latest features.",
+        "At KLobTech, we go beyond development by offering dedicated maintenance and support. Keep your Android app running smoothly with regular updates, feature enhancements, and expert assistance.",
     },
   ];
 
@@ -48,14 +48,14 @@ function React() {
       {/* Desktop View */}
       {!isMobile && (
         <>
-          <div
-          >
+          <div>
             <Logo />
           </div>
           <BackToTopButton />
           <Scrolltotop />
           <Navbar />
 
+          {/* Hero Section */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -64,24 +64,27 @@ function React() {
             className="serviceHero"
           >
             <div>
-              <img src={reactImg} alt="" />
+              <img src={nativeImg} alt="Native Android Development" />
             </div>
             <div className="heroInfo">
               <div className="heroTitleArea">
-                <h1 className="heroTitle">React Native Development</h1>
+                <h1 className="heroTitle">Native Android Development</h1>
               </div>
 
               <p className="heroDescription">
-                Empower your business with expertly crafted React Native apps
-                tailored to your unique needs. Our team specializes in creating
-                cross-platform mobile solutions for diverse industries,
-                delivering user-friendly interfaces and dynamic experiences.
-                Elevate your digital journey with next-gen mobile apps designed
-                to enhance engagement and performance.
+                Unlock the potential of your business with KLobTech’s premier
+                Android app development services. We deliver tailored,
+                high-performance solutions that align with your goals. Whether
+                you're a startup aiming to make an impact or an established
+                enterprise seeking growth, our expert team is here to transform
+                your vision into reality. Join our valued clients who trust us
+                to elevate their brand. Ready to create an innovative Android
+                app that drives success? Your journey starts with KLobTech!
               </p>
             </div>
           </motion.div>
 
+          {/* Features Section */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -91,7 +94,7 @@ function React() {
           >
             <div className="serviceGridTitleContainer">
               <p className="serviceTitle">
-                Why Choose KLobTech for React Native Development?
+                Why Choose KLobTech for Native Android Development?
               </p>
             </div>
             <div className="gridArea">
@@ -131,9 +134,11 @@ function React() {
       {/* Mobile View */}
       {isMobile && (
         <div className="font-sans">
-          {/* Hero Section */}
+          {/* Mobile Navbar */}
+          <Navbar />
           <BackToTopButton />
           <Scrolltotop />
+          {/* Hero Section */}
           <motion.section
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -142,27 +147,29 @@ function React() {
             className="py-12 px-4 text-center bg-[#f3f3f3] rounded-3xl mx-8"
           >
             <div className="flex flex-col items-center gap-6">
-              {/* Increase image size for mobile and avoid cropping */}
-              <div className="w-48 h-48 md:w-32 md:h-32">
+              <div className="w-48 h-48">
                 <img
-                  src={reactImg}
+                  src={nativeImg}
                   alt="Mobile App Icon"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
                   <span className="text-[#333333]">
-                    React Native Development
+                    Native Android Development
                   </span>
                 </h1>
                 <p className="text-2xl md:text-xl text-gray-600 max-w-3xl mx-auto leading-normal text-justify px-10">
-                  Empower your business with expertly crafted React Native apps
-                  tailored to your unique needs. Our team specializes in
-                  creating cross-platform mobile solutions for diverse
-                  industries, delivering user-friendly interfaces and dynamic
-                  experiences. Elevate your digital journey with next-gen mobile
-                  apps designed to enhance engagement and performance.
+                  Unlock the potential of your business with KLobTech’s premier
+                  Android app development services. We deliver tailored,
+                  high-performance solutions that align with your goals. Whether
+                  you're a startup aiming to make an impact or an established
+                  enterprise seeking growth, our expert team is here to
+                  transform your vision into reality. Join our valued clients
+                  who trust us to elevate their brand. Ready to create an
+                  innovative Android app that drives success? Your journey
+                  starts with KLobTech!
                 </p>
               </div>
             </div>
@@ -177,8 +184,8 @@ function React() {
             className="py-12 px-4 bg-white"
           >
             <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-              Why Choose <span className="text-teal-500">KLob</span>Tech for
-              Mobile App Development?
+              Why Choose <span className="text-teal-500">KLobTech</span> for
+              Native Android Development?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[85%] mx-auto">
               {features.map((feature, index) => (
@@ -208,4 +215,4 @@ function React() {
   );
 }
 
-export default React;
+export default Native;

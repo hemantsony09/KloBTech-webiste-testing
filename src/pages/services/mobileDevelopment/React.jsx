@@ -1,46 +1,45 @@
-
 import { motion } from "framer-motion";
-import Navbar from "../Nav/Navbar";
-import Footer from "../Components/Footer";
-import flutterImg from "./assets/flutter.png";
-import Mobilefooter from "../Mobilefooter";
+import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import reactImg from "./assets/react.png";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Scrolltotop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Scrolltotop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
-function Flutter() {
+function React() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
   const features = [
     {
-      title: "Ideation and Strategy",
+      title: "Strategic App Planning",
       description:
-        "Leverage Flutter’s potential with expert guidance from our team. We delve into your business goals, analyze market trends, and craft a strategic Flutter development plan to ensure your app’s success.",
+        "Lay a strong foundation for your app development with our expert consultation services. We align your vision with an actionable development strategy.",
     },
     {
-      title: "Tailored App Solutions",
+      title: "Personalized App Solutions",
       description:
-        "We design customized Flutter applications to meet your unique business needs. From streamlining operations to improving user engagement, our bespoke solutions are crafted to drive growth and mobility.",
+        "Empower your business with React Native apps. Our team delivers unique solutions crafted to enhance productivity and meet your specific business objectives.",
     },
     {
-      title: "Cross-Platform Excellence",
+      title: "End-to-End Development",
       description:
-        "Save time and resources with our Flutter cross-platform app development services. Delivering top-quality apps for Android and iOS, we ensure visually appealing designs and faster time to market.",
+        "Experience the full spectrum of React Native development. From strategy and design to deployment, we deliver end-to-end solutions to ensure your app’s success.",
     },
     {
-      title: "Modern UX/UI Design",
+      title: "Accelerated MVP Delivery",
       description:
-        "With Flutter, we create sleek and intuitive designs that captivate users. Our focus on modern UX/UI enhances user experiences, fosters engagement, and strengthens customer retention.",
+        "Bring your ideas to life with our streamlined React Native MVP development. Perfect for startups, our approach helps you test market potential and engage users rapidly.",
+    },
+    {
+      title: "Cross-Platform Expertise",
+      description:
+        "Expand your digital footprint with powerful apps for both Android and iOS. Our React Native experts create interactive experiences to captivate users across platforms.",
     },
     {
       title: "Seamless App Migration",
       description:
-        "Switch to Flutter effortlessly with our expert migration and upgrade services. We enhance your app’s performance and provide advanced features for improved control and scalability.",
-    },
-    {
-      title: "Reliable Support Services",
-      description:
-        "At KLobTech, we go beyond development by offering dedicated maintenance and support. Keep your Flutter app running smoothly with regular updates, feature enhancements, and expert assistance.",
+        "Modernize your mobile solutions with our hassle-free migration and upgrade services. Transition to React Native effortlessly and stay ahead with the latest features.",
     },
   ];
 
@@ -65,23 +64,20 @@ function Flutter() {
             className="serviceHero"
           >
             <div>
-              <img src={flutterImg} alt="Flutter" className="serviceHeroImg" />
+              <img src={reactImg} alt="" />
             </div>
             <div className="heroInfo">
               <div className="heroTitleArea">
-                <h1 className="heroTitle">Flutter Development</h1>
+                <h1 className="heroTitle">React Native Development</h1>
               </div>
 
               <p className="heroDescription">
-                At KLobTech, we are proud to be a trusted name in Flutter app
-                development. Our skilled in-house Flutter development team
-                specializes in turning your ideas into powerful, feature-rich
-                applications. Whether you need custom app solutions or seamless
-                cross-platform development, we deliver top-quality results at
-                competitive prices. Searching for a reliable partner to bring
-                your vision to life? Look no further! With KLobTech, your
-                journey to exceptional app development begins today. Let’s build
-                something extraordinary together!
+                Empower your business with expertly crafted React Native apps
+                tailored to your unique needs. Our team specializes in creating
+                cross-platform mobile solutions for diverse industries,
+                delivering user-friendly interfaces and dynamic experiences.
+                Elevate your digital journey with next-gen mobile apps designed
+                to enhance engagement and performance.
               </p>
             </div>
           </motion.div>
@@ -95,7 +91,7 @@ function Flutter() {
           >
             <div className="serviceGridTitleContainer">
               <p className="serviceTitle">
-                Why Choose KLobTech for Flutter Development?
+                Why Choose KLobTech for React Native Development?
               </p>
             </div>
             <div className="gridArea">
@@ -135,12 +131,9 @@ function Flutter() {
       {/* Mobile View */}
       {isMobile && (
         <div className="font-sans">
-          {/* Mobile Navbar */}
-          <Navbar />
+          {/* Hero Section */}
           <BackToTopButton />
           <Scrolltotop />
-
-          {/* Hero Section */}
           <motion.section
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -149,27 +142,27 @@ function Flutter() {
             className="py-12 px-4 text-center bg-[#f3f3f3] rounded-3xl mx-8"
           >
             <div className="flex flex-col items-center gap-6">
-              <div className="w-40 h-40">
+              {/* Increase image size for mobile and avoid cropping */}
+              <div className="w-48 h-48 md:w-32 md:h-32">
                 <img
-                  src={flutterImg}
+                  src={reactImg}
                   alt="Mobile App Icon"
-                  className="mobileHeroImg"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                  <span className="text-[#333333]">Flutter Development</span>
+                  <span className="text-[#333333]">
+                    React Native Development
+                  </span>
                 </h1>
                 <p className="text-2xl md:text-xl text-gray-600 max-w-3xl mx-auto leading-normal text-justify px-10">
-                  At KLobTech, we are proud to be a trusted name in Flutter app
-                  development. Our skilled in-house Flutter development team
-                  specializes in turning your ideas into powerful, feature-rich
-                  applications. Whether you need custom app solutions or
-                  seamless cross-platform development, we deliver top-quality
-                  results at competitive prices. Searching for a reliable
-                  partner to bring your vision to life? Look no further! With
-                  KLobTech, your journey to exceptional app development begins
-                  today. Let’s build something extraordinary together!
+                  Empower your business with expertly crafted React Native apps
+                  tailored to your unique needs. Our team specializes in
+                  creating cross-platform mobile solutions for diverse
+                  industries, delivering user-friendly interfaces and dynamic
+                  experiences. Elevate your digital journey with next-gen mobile
+                  apps designed to enhance engagement and performance.
                 </p>
               </div>
             </div>
@@ -184,7 +177,7 @@ function Flutter() {
             className="py-12 px-4 bg-white"
           >
             <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-              Why Choose <span className="text-teal-500">KLobTech</span> for
+              Why Choose <span className="text-teal-500">KLob</span>Tech for
               Mobile App Development?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[85%] mx-auto">
@@ -215,4 +208,4 @@ function Flutter() {
   );
 }
 
-export default Flutter;
+export default React;
