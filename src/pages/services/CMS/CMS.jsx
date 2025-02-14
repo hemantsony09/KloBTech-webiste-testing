@@ -1,18 +1,18 @@
 
 import { motion } from "framer-motion";
-import Footer from "../Components/Footer";
-import Navbar from "../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import Navbar from "../../../Nav/Navbar";
 import { Link } from "react-router-dom";
 import herocmsImg from "./assets/cms.png";
 import shopifyImg from "./assets/shopify.png";
 import wordpressImg from "./assets/wordpress.png";
-import Mobilefooter from "../Mobilefooter";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import ScrollToTop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import ScrollToTop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
-import "../index.css";
+import "../../../index.css";
 
 function Cms() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

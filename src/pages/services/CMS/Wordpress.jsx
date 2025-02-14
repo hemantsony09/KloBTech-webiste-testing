@@ -1,11 +1,11 @@
-import Navbar from "../Nav/Navbar";
-import Footer from "../Components/Footer";
+import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer";
 import wordpressImg from "./assets/wordpress.png";
-import ScrollToTop from "../Components/ScrollToTop";
-import Mobilefooter from "../Mobilefooter";
+import ScrollToTop from "../../../Components/ScrollToTop";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 import { motion } from "framer-motion";
 
 function Wordpress() {

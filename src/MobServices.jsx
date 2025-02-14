@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"; // Import Link from React Router
 import { Helmet } from "react-helmet-async"; // For SEO meta tags
 
 // Importing images properly
-import cmsImg from "./CMSService/assets/cms.png";
+import cmsImg from "./pages/services/CMS/assets/cms.png";
 import webdevImg from "./pages/services/webDevelopment/Assets/web.png";
 import mobileImg from "./pages/services/mobileDevelopment/assets/mobile.png";
 import btbsImg from "./services/assets/b2b.png";
