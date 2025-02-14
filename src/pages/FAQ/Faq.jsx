@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Faq.css";
-import faqImg from "../../assets/faq.png";
+import faqImg from "../../assets/FAQ/faq.png";
 import Navbar from "../../Nav/Navbar";
 import Footer from "../../Components/Footer";
 import Logo from "../../Components/logo";
