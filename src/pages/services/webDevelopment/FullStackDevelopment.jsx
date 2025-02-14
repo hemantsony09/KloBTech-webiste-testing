@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
-import Footer from "../Components/Footer";
-import Navbar from "../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import Navbar from "../../../Nav/Navbar";
 import { Link } from "react-router-dom";
 import reactImg from "./Assets/react.png";
 import aiImg from "./Assets/ai.png";
@@ -9,14 +9,14 @@ import angularImg from "./Assets/angular.png";
 import phpImg from "./Assets/php.png";
 import pythonImg from "./Assets/python.png";
 import nodeImg from "./Assets/node.png";
-import webdevImg from "./Assets/webdev.png";
-import Mobilefooter from "../Mobilefooter";
+import webdevImg from "./Assets/web.png";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Scrolltotop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Scrolltotop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
-import "../index.css";
+import "../../../index.css";
 
 function FullStackDevelopment() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

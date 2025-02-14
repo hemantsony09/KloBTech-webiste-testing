@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
-import Navbar from "../Nav/Navbar";
-import Footer from "../Components/Footer";
+import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer";
 import aimlImg from "./Assets/ai.png";
-import Mobilefooter from "../Mobilefooter";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Scrolltotop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Scrolltotop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
 function Aiml() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });

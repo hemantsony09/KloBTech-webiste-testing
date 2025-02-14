@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import "./Services.css";
 import { Link } from "react-router-dom";
 import cmsImg from "./CMSService/assets/cms.png";
-import webdevImg from "./Web-Development/Assets/webdev.png";
+import webdevImg from "./pages/services/webDevelopment/Assets/web.png";
 import mobileImg from "./pages/services/mobileDevelopment/assets/mobile.png";
 import btbsImg from "./services/assets/b2b.png";
 import recruitImg from "./services/assets/recruitment.png";

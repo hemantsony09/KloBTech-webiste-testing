@@ -1,46 +1,46 @@
 import { motion } from "framer-motion";
-import Navbar from "../Nav/Navbar";
-import Footer from "../Components/Footer";
-import nodeImg from "./Assets/node.png";
-import Mobilefooter from "../Mobilefooter";
+import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import phpImg from "./Assets/php.png";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Scrolltotop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Scrolltotop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
 
-function Node() {
+function Php() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   const features = [
     {
-      title: "Custom Node.js App Development",
+      title: "Custom PHP Solutions",
       description:
-        "Unlock the full potential of custom Node.js app development with KLobTech. Our skilled Node.js developers specialize in creating bespoke web and mobile applications that address your unique business requirements.",
+        "Create dynamic PHP web applications tailored to your business needs. Our experts use frameworks like CakePHP, CodeIgniter, Yii, Zend, Symfony, and Laravel to deliver high-quality, enterprise-grade solutions.",
     },
     {
-      title: "Node.js Web Development",
+      title: "E-commerce Development",
       description:
-        "Enhance your online presence with our premium Node.js web development services. We integrate modern features and robust security standards, ensuring your digital footprint is secure and high-performing.",
+        "Build scalable and feature-rich e-commerce platforms with PHP. We offer customized solutions that enhance user experience and align perfectly with your business objectives.",
     },
     {
-      title: "Real-Time Apps Development",
+      title: "CMS Development Services",
       description:
-        "Create dynamic, real-time web applications with our Node.js expertise. Whether it's single-page applications (SPAs), collaboration tools, or chat apps, we deliver solutions tailored to your business needs.",
+        "Specializing in WordPress, Joomla, Magento, and Drupal, we deliver highly customized CMS websites for seamless content management. Our team ensures the final product aligns with your business goals and provides ease of use.",
     },
     {
-      title: "API Development and Integration",
+      title: "Social Networking Development",
       description:
-        "Our experienced Node.js developers craft powerful, feature-rich APIs and provide seamless integration with other systems. We ensure your APIs are reliable and fit perfectly with your business processes.",
+        "Develop engaging social networking apps with modern PHP technologies. We create collaborative platforms that keep users connected while implementing the latest trends for optimal performance.",
     },
     {
-      title: "Node.js Migration Services",
+      title: "API Integration Services",
       description:
-        "Planning to migrate your application or website to Node.js? We provide smooth and efficient migration services, ensuring a hassle-free transition with minimal disruption to your operations.",
+        "Seamlessly integrate third-party APIs into your PHP systems. Our team ensures smooth API connections, enhancing the functionality and scalability of your web solutions.",
     },
     {
-      title: "Node.js Plugin Development",
+      title: "Custom Web Portals",
       description:
-        "We develop custom, feature-rich Node.js plugins that integrate seamlessly with your web or mobile application, enhancing its functionality and performance for your business success.",
+        "We specialize in creating business-centric web portals, including B2B, B2C, and enterprise solutions. Designed to streamline operations and drive growth, our portals offer tailored solutions for improved customer engagement and collaboration.",
     },
   ];
 
@@ -66,8 +66,8 @@ function Node() {
           >
             <div>
               <img
-                src={nodeImg}
-                alt="Node.js Development"
+                src={phpImg}
+                alt="PHP Development"
                 className="serviceHeroImg"
                 style={{
                   width: "100%",
@@ -78,18 +78,17 @@ function Node() {
             </div>
             <div className="heroInfo">
               <div className="heroTitleArea">
-                <h1 className="heroTitle">Node JS Development</h1>
+                <h1 className="heroTitle">PHP Development</h1>
               </div>
 
               <p className="heroDescription">
-                Upgrade your digital solutions with KLobTech, a leading Node.js
-                development company. Our expert Node.js developers work closely
-                with you to understand your business needs, delivering robust,
-                scalable, and modern web and mobile applications. By partnering
-                with our skilled team, you gain enhanced scalability, improved
-                productivity, and long-term value for your web and app
-                solutions. Choose KLobTech for tailored, high-quality
-                development services that drive business success.
+                Welcome to KLobTech, your trusted partner for exceptional PHP
+                development services! Our team excels in creating smart,
+                feature-rich PHP solutions tailored to meet the needs of
+                businesses worldwide. With a focus on scalability and speed, we
+                build high-performance PHP applications that drive success.
+                Count on our expert PHP developers to deliver fully customizable
+                solutions using the latest technologies.
               </p>
             </div>
           </motion.div>
@@ -103,7 +102,7 @@ function Node() {
           >
             <div className="serviceGridTitleContainer">
               <p className="serviceTitle">
-                Why Choose KLobTech for Node JS Development?
+                Why Choose KLobTech for PHP Development?
               </p>
             </div>
             <div className="gridArea">
@@ -159,8 +158,8 @@ function Node() {
             <div className="flex flex-col items-center gap-6">
               <div className="w-40 h-40">
                 <img
-                  src={nodeImg}
-                  alt="Node.js Development"
+                  src={phpImg}
+                  alt="PHP Development"
                   className="mobileHeroImg"
                   style={{
                     width: "120px",
@@ -171,18 +170,16 @@ function Node() {
               </div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                  <span className="text-[#333333]">Node JS Development</span>
+                  <span className="text-[#333333]">PHP Development</span>
                 </h1>
                 <p className="text-2xl md:text-xl text-gray-600 max-w-3xl mx-auto leading-normal text-justify px-10">
-                  Upgrade your digital solutions with KLobTech, a leading
-                  Node.js development company. Our expert Node.js developers
-                  work closely with you to understand your business needs,
-                  delivering robust, scalable, and modern web and mobile
-                  applications. By partnering with our skilled team, you gain
-                  enhanced scalability, improved productivity, and long-term
-                  value for your web and app solutions. Choose KLobTech for
-                  tailored, high-quality development services that drive
-                  business success.
+                  Welcome to KLobTech, your trusted partner for exceptional PHP
+                  development services! Our team excels in creating smart,
+                  feature-rich PHP solutions tailored to meet the needs of
+                  businesses worldwide. With a focus on scalability and speed,
+                  we build high-performance PHP applications that drive success.
+                  Count on our expert PHP developers to deliver fully
+                  customizable solutions using the latest technologies.
                 </p>
               </div>
             </div>
@@ -197,8 +194,8 @@ function Node() {
             className="py-12 px-4 bg-white"
           >
             <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-              Why Choose <span className="text-teal-500">KLobTech</span> for
-              Node JS Development?
+              Why Choose <span className="text-teal-500">KLobTech</span> for PHP
+              Development?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[85%] mx-auto">
               {features.map((feature, index) => (
@@ -228,4 +225,4 @@ function Node() {
   );
 }
 
-export default Node;
+export default Php;

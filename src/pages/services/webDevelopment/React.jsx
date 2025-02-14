@@ -1,46 +1,79 @@
 import { motion } from "framer-motion";
-import Navbar from "../Nav/Navbar";
-import Footer from "../Components/Footer";
-import phpImg from "./Assets/php.png";
-import Mobilefooter from "../Mobilefooter";
+import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer";
+import reactImg from "./Assets/react.png";
+import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Scrolltotop from "../Components/ScrollToTop";
-import Logo from "../Components/logo";
-import BackToTopButton from "../BackToTopButton";
+import Scrolltotop from "../../../Components/ScrollToTop";
+import Logo from "../../../Components/logo";
+import BackToTopButton from "../../../BackToTopButton";
+import { Link } from "react-router-dom";
 
-function Php() {
+function React() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
 
   const features = [
     {
-      title: "Custom PHP Solutions",
+      title: "Mobile App Development",
       description:
-        "Create dynamic PHP web applications tailored to your business needs. Our experts use frameworks like CakePHP, CodeIgniter, Yii, Zend, Symfony, and Laravel to deliver high-quality, enterprise-grade solutions.",
+        "Develop high-quality, cross-platform mobile apps for iOS and Android with our expert React.js development. We utilize React’s efficient components to build seamless applications, ensuring exceptional user experiences.",
     },
     {
-      title: "E-commerce Development",
+      title: "Web App Solutions",
       description:
-        "Build scalable and feature-rich e-commerce platforms with PHP. We offer customized solutions that enhance user experience and align perfectly with your business objectives.",
+        "Create scalable, high-performance, and SEO-friendly web applications with our React.js expertise. We design solutions tailored to your business requirements, delivering enhanced functionality and future growth.",
     },
     {
-      title: "CMS Development Services",
+      title: "Effortless App Migration",
       description:
-        "Specializing in WordPress, Joomla, Magento, and Drupal, we deliver highly customized CMS websites for seamless content management. Our team ensures the final product aligns with your business goals and provides ease of use.",
+        "Smoothly transition your business to the React.js framework. Our team follows industry best practices to ensure a seamless migration, improving performance and maintaining service continuity.",
     },
     {
-      title: "Social Networking Development",
+      title: "Seamless App Integration",
       description:
-        "Develop engaging social networking apps with modern PHP technologies. We create collaborative platforms that keep users connected while implementing the latest trends for optimal performance.",
+        "Unlock the full potential of React.js through seamless integration. We enhance your app's functionality by adding new features with minimal coding, improving overall performance and user experience.",
     },
     {
-      title: "API Integration Services",
+      title: "Custom Development Services",
       description:
-        "Seamlessly integrate third-party APIs into your PHP systems. Our team ensures smooth API connections, enhancing the functionality and scalability of your web solutions.",
+        "We specialize in highly customized React.js development, ensuring seamless integration with third-party services and enhancing the capabilities of your existing applications for optimal performance.",
     },
     {
-      title: "Custom Web Portals",
+      title: "Ongoing Maintenance Support",
       description:
-        "We specialize in creating business-centric web portals, including B2B, B2C, and enterprise solutions. Designed to streamline operations and drive growth, our portals offer tailored solutions for improved customer engagement and collaboration.",
+        "We specialize in creating business-centric web portals, including B2B, B2C, and enterprise solutions. Designed to streamline operations and drive growth collaboration.",
+    },
+  ];
+  const technologies = [
+    {
+      title: "React",
+      image: reactImg,
+      link: "/technologies/react",
+    },
+    {
+      title: "Node.js",
+      image: "./assets/node.png",
+      link: "/technologies/node",
+    },
+    {
+      title: "Flutter",
+      image: "./assets/flutter.png",
+      link: "/technologies/flutter",
+    },
+    {
+      title: "MongoDB",
+      image: "./assets/mongodb.png",
+      link: "/technologies/mongodb",
+    },
+    {
+      title: "Express.js",
+      image: "./assets/express.png",
+      link: "/technologies/express",
+    },
+    {
+      title: "JavaScript",
+      image: "./assets/javascript.png",
+      link: "/technologies/javascript",
     },
   ];
 
@@ -50,13 +83,14 @@ function Php() {
       {!isMobile && (
         <>
           <div
-          >
+                >
             <Logo />
           </div>
           <BackToTopButton />
           <Scrolltotop />
           <Navbar />
 
+          {/* Hero Section */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -65,34 +99,27 @@ function Php() {
             className="serviceHero"
           >
             <div>
-              <img
-                src={phpImg}
-                alt="PHP Development"
-                className="serviceHeroImg"
-                style={{
-                  width: "100%",
-                  maxHeight: "500px",
-                  objectFit: "cover",
-                }}
-              />
+              <img src={reactImg} alt="React JS" />
             </div>
             <div className="heroInfo">
               <div className="heroTitleArea">
-                <h1 className="heroTitle">PHP Development</h1>
+                <h1 className="heroTitle">React JS Development</h1>
               </div>
-
               <p className="heroDescription">
-                Welcome to KLobTech, your trusted partner for exceptional PHP
-                development services! Our team excels in creating smart,
-                feature-rich PHP solutions tailored to meet the needs of
-                businesses worldwide. With a focus on scalability and speed, we
-                build high-performance PHP applications that drive success.
-                Count on our expert PHP developers to deliver fully customizable
-                solutions using the latest technologies.
+                Discover exceptional React.js web development services at
+                KLobTech, a leading company in the industry. We provide tailored
+                solutions for building robust and scalable web applications
+                using React.js. Our skilled team of React.js developers delivers
+                high-quality, efficient development services, trusted by both
+                startups and enterprises. With a focus on performance and
+                innovation, we ensure your project stands out in the digital
+                space. Ready to take your web development to the next level?
+                Partner with KLobTech for impactful, future-proof solutions.
               </p>
             </div>
           </motion.div>
 
+          {/* Service Features */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -102,7 +129,7 @@ function Php() {
           >
             <div className="serviceGridTitleContainer">
               <p className="serviceTitle">
-                Why Choose KLobTech for PHP Development?
+                Why Choose KLobTech for React JS Development?
               </p>
             </div>
             <div className="gridArea">
@@ -146,7 +173,6 @@ function Php() {
           <Navbar />
           <BackToTopButton />
           <Scrolltotop />
-
           {/* Hero Section */}
           <motion.section
             initial={{ opacity: 0, y: 50 }}
@@ -156,36 +182,33 @@ function Php() {
             className="py-12 px-4 text-center bg-[#f3f3f3] rounded-3xl mx-8"
           >
             <div className="flex flex-col items-center gap-6">
-              <div className="w-40 h-40">
+              <div className="w-48 h-48">
                 <img
-                  src={phpImg}
-                  alt="PHP Development"
+                  src={reactImg}
+                  alt="React JS"
                   className="mobileHeroImg"
-                  style={{
-                    width: "120px",
-                    height: "120px",
-                    objectFit: "cover",
-                  }}
                 />
               </div>
               <div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                  <span className="text-[#333333]">PHP Development</span>
+                  <span className="text-[#333333]">React JS Development</span>
                 </h1>
                 <p className="text-2xl md:text-xl text-gray-600 max-w-3xl mx-auto leading-normal text-justify px-10">
-                  Welcome to KLobTech, your trusted partner for exceptional PHP
-                  development services! Our team excels in creating smart,
-                  feature-rich PHP solutions tailored to meet the needs of
-                  businesses worldwide. With a focus on scalability and speed,
-                  we build high-performance PHP applications that drive success.
-                  Count on our expert PHP developers to deliver fully
-                  customizable solutions using the latest technologies.
+                  Discover exceptional React.js web development services at
+                  KLobTech, a leading company in the industry. We provide
+                  tailored solutions for building robust and scalable web
+                  applications using React.js. Our skilled team of React.js
+                  developers delivers high-quality, efficient development
+                  services, trusted by both startups and enterprises. With a
+                  focus on performance and innovation, we ensure your project
+                  stands out in the digital space. Ready to take your web
+                  development to the next level? Partner with KLobTech for
+                  impactful, future-proof solutions.
                 </p>
               </div>
             </div>
           </motion.section>
-
-          {/* Services Section */}
+          {/* Service Features */}
           <motion.section
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -194,8 +217,8 @@ function Php() {
             className="py-12 px-4 bg-white"
           >
             <h2 className="text-center text-3xl md:text-4xl font-bold text-gray-800 mb-10">
-              Why Choose <span className="text-teal-500">KLobTech</span> for PHP
-              Development?
+              Why Choose <span className="text-teal-500">KLobTech</span> for
+              React JS Development?
             </h2>
             <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[85%] mx-auto">
               {features.map((feature, index) => (
@@ -214,15 +237,15 @@ function Php() {
                     {feature.description}
                   </p>
                 </motion.div>
-              ))}
+              ))}              </div>
+  
+              <Mobilefooter />
+              </motion.section>
             </div>
-          </motion.section>
-
-          <Mobilefooter />
-        </div>
-      )}
-    </>
-  );
-}
-
-export default Php;
+     
+        )}
+      </>
+    );
+  }
+  
+  export default React;
