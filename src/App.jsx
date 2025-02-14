@@ -16,12 +16,8 @@ import Emp from "./Emp";
 import Home from "./pages/Home";
 import Mad from "./pages/services/mobileDevelopment/MobileAndroidDevelopment.jsx";
 import Fsd from "./pages/services/webDevelopment/FullStackDevelopment.jsx";
-import Amd from "./services/Amd";
 import Btbs from "./pages/services/Btb/Btbs.jsx";
-import Lgsa from "./services/Lgsa";
-import Mce from "./services/Mce";
 import Rs from "./pages/services/Recruitment/Rs.jsx";
-import Ps from "./services/Ps";
 import React from "./pages/services/mobileDevelopment/React.jsx";
 import Flutter from "./pages/services/mobileDevelopment/Flutter.jsx";
 import Native from "./pages/services/mobileDevelopment/Native.jsx";
@@ -84,11 +80,6 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/digitalmarketing" element={<Digitalmarketing />} />
 
-          <Route path="/services/Amd" element={<Amd />} />
-          <Route path="/services/Lgsa" element={<Lgsa />} />
-          <Route path="/services/Mce" element={<Mce />} />
-          <Route path="/services/Rs" element={<Rs />} />
-          <Route path="/services/Ps" element={<Ps />} />
           <Route path="/hiring" element={<Hiring />} />
         </Routes>
       </Router>
