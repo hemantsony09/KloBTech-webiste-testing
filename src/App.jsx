@@ -40,10 +40,10 @@ import Wordpress from "./CMSService/Wordpress";
 import Ecommerce from "./services/Ecommerce";
 import Education from "./services/Education";
 import Digitalmarketing from "./digitalmarketing/Digitalmarketing";
-import ContactUs from "./ContactUs";
+import ContactUs from "./pages/ContactUs.jsx";
 import Tac from "./tac";
 import Career from "./Career/Career";
-import AboutUs from "./pages/aboutUs/AboutUs.jsx";
+import AboutUs from "./pages/about/AboutUs.jsx";
 import Hiring from "./Hiring/Hiring";
 
 function App() {
