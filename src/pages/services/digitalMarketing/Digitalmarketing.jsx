@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Footer from "../../../Components/Footer";
 import Navbar from "../../../Nav/Navbar";
-import digitalImg from "./assets/digital.png";
+import digitalImg from "../../../assets/services/digitalMarketing/digital.png";
 import ScrollToTop from "../../../Components/ScrollToTop";
 import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";

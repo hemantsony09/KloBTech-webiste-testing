@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import "./Services.css";
 import { Link } from "react-router-dom";
-import cmsImg from "./pages/services/CMS/assets/cms.png";
+import cmsImg from "./assets/services/CMS/cms.png";
 import webdevImg from "./assets/services/webDevelopment/web.png";
 import mobileImg from "./assets/services/mobileDevelopment/mobile.png";
 import btbsImg from "./assets/services/BTB/b2b.png";

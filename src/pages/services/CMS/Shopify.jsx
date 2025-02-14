@@ -1,6 +1,6 @@
 import Navbar from "../../../Nav/Navbar";
 import Footer from "../../../Components/Footer";
-import shopifyImg from "./assets/shopify.png";
+import shopifyImg from "../../../assets/services/CMS/shopify.png";
 import ScrollToTop from "../../../Components/ScrollToTop";
 import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
