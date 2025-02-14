@@ -7,7 +7,7 @@ import { servicesData } from "./serviceData";
 import "./Navbar.css";
 import logo from "../assets/logo.png";
 import { useMediaQuery } from "react-responsive";
-
+import HiringButton from "../HiringButton"
 const Navbar = () => {
   const {
     activeMenu,
@@ -109,6 +109,10 @@ const Navbar = () => {
               </Link>
               <Link to="/contact" className="nav-link" onClick={handleNavClick}>
                 Contact
+              </Link> 
+                  {/* <HiringButton/> */}
+              <Link to="/hiring" className="nav-link" onClick={handleNavClick}>
+                Hiring
               </Link>
             </div>
           </div>
