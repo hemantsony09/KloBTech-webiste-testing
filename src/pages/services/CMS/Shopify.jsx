@@ -1,8 +1,8 @@
-import Navbar from "../../../Nav/Navbar";
-import Footer from "../../../Components/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
+import Footer from "../../../Components/Footer/Footer";
 import shopifyImg from "../../../assets/services/CMS/shopify.png";
 import ScrollToTop from "../../../Components/ScrollToTop";
-import Mobilefooter from "../../../Mobilefooter";
+import Mobilefooter from "../../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Logo from "../../../Components/logo";
 import BackToTopButton from "../../../BackToTopButton";

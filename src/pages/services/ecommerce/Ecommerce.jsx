@@ -1,9 +1,9 @@
-import Footer from "../../../Components/Footer";
-import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
 import ecommerceImg from "../../../assets/services/ecommerce/ecommerce.png";
 import ScrollToTop from "../../../Components/ScrollToTop";
 import { useMediaQuery } from "react-responsive";
-import Mobilefooter from "../../../Mobilefooter";
+import Mobilefooter from "../../../Components/Footer/Mobilefooter";
 import Logo from "../../../Components/logo";
 import BackToTopButton from "../../../BackToTopButton";
 import { motion } from "framer-motion";

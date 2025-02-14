@@ -1,11 +1,12 @@
 import { useState } from "react";
+import PropTypes from "prop-types";
 import "./Faq.css";
 import faqImg from "../../assets/FAQ/faq.png";
-import Navbar from "../../Nav/Navbar";
-import Footer from "../../Components/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 import Logo from "../../Components/logo";
 import FAQContact from "../../Components/FAQContact";
-import Mobilefooter from "../../Mobilefooter";
+import Mobilefooter from "../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import BackToTopButton from "../../BackToTopButton";
 import {motion} from 'framer-motion';
@@ -115,6 +116,9 @@ const FAQPage = ({ accentColor = "#0dc7ae" }) => {
       {isMobile && <Mobilefooter></Mobilefooter>}
     </>
   );
+};
+FAQPage.propTypes = {
+  accentColor: PropTypes.string,
 };
 
 export default FAQPage;

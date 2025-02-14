@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Navbar from "../Nav/Navbar";
+import Navbar from "../Components/Navbar/Navbar";
 
 const jobRoles = ["Frontend Developer", "Backend Developer", "Full Stack Developer", "UI/UX Designer"];
 const workModes = ["Work From Home", "On-Site", "Hybrid"];

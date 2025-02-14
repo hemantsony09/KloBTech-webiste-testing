@@ -1,8 +1,8 @@
 import { ScrollText } from "lucide-react";
-import Footer from "./Components/Footer";
-import Navbar from "./Nav/Navbar";
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
 import ScrollToTop from "./Components/ScrollToTop";
-import Mobilefooter from "./Mobilefooter";
+import Mobilefooter from "./Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import BackToTopButton from "./BackToTopButton";
 import Logo from "./Components/logo";

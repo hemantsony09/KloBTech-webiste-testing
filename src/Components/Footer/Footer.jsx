@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import x from "./assets/x.png";
-import xaccent from "./assets/xaccent.png";
-import insta from "./assets/instagram.png";
-import instaccent from "./assets/instagramaccent.png";
-import linked from "./assets/linkedin.png";
-import linkedaccent from "./assets/linkedaccent.png";
+import x from "../../assets/Footer/x.png";
+import xaccent from "../../assets/Footer/xaccent.png";
+import insta from "../../assets/Footer/instagram.png";
+import instaccent from "../../assets/Footer/instagramaccent.png";
+import linked from "../../assets/Footer/linkedin.png";
+import linkedaccent from "../../assets/Footer/linkedaccent.png";
 import { Link, Outlet } from "react-router-dom";
 Outlet;
 

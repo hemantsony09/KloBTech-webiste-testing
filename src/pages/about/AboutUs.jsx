@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./AboutUs.css";
-import Navbar from "../../Nav/Navbar";
-import Footer from "../../Components/Footer";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 import BackToTopButton from "../../BackToTopButton";
-import Mobilefooter from "../../Mobilefooter";
+import Mobilefooter from "../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Logo from "../../Components/logo";
 import imgAbout from "../../assets/aboutUs/stockAbout.jpg";

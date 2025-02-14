@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
-import Footer from "../../../Components/Footer";
-import Navbar from "../../../Nav/Navbar";
+import Footer from "../../../Components/Footer/Footer";
+import Navbar from "../../../Components/Navbar/Navbar";
 import { Link } from "react-router-dom";
 import reactImg from "../../../assets/services/webDevelopment/react.png";
 import aiImg from "../../../assets/services/webDevelopment/ai.png";
@@ -10,7 +10,7 @@ import phpImg from "../../../assets/services/webDevelopment/php.png";
 import pythonImg from "../../../assets/services/webDevelopment/python.png";
 import nodeImg from "../../../assets/services/webDevelopment/node.png";
 import webdevImg from "../../../assets/services/webDevelopment/web.png";
-import Mobilefooter from "../../../Mobilefooter";
+import Mobilefooter from "../../../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Scrolltotop from "../../../Components/ScrollToTop";
 import Logo from "../../../Components/logo";

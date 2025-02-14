@@ -1,13 +1,11 @@
-import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { useDropdownState } from "./useDropdownState";
-import SubMenu from "./SubMenu";
-import MobileMenu from "./MobileMenu";
-import { servicesData } from "./serviceData";
+import { useDropdownState } from "../../Nav/useDropdownState";
+import SubMenu from "../../Nav/SubMenu";
+import MobileMenu from "../../Nav/MobileMenu";
+import { servicesData } from "../../Nav/serviceData";
 import "./Navbar.css";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 import { useMediaQuery } from "react-responsive";
-import HiringButton from "../HiringButton"
 const Navbar = () => {
   const {
     activeMenu,

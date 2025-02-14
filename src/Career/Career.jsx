@@ -1,9 +1,9 @@
 import React from "react";
 import { Building2, Users, Sparkles } from "lucide-react";
-import Navbar from "../Nav/Navbar";
-import Mobilefooter from "../Mobilefooter";
+import Navbar from "../Components/Navbar/Navbar";
+import Mobilefooter from "../Components/Footer/Mobilefooter";
 import { useMediaQuery } from "react-responsive";
-import Footer from "../Components/Footer";
+import Footer from "../Components/Footer/Footer";
 import Logo from "../Components/logo";
 import ScrollToTop from "../Components/ScrollToTop";
 

@@ -1,10 +1,10 @@
 
-  import Footer from "../../../Components/Footer";
-  import Navbar from "../../../Nav/Navbar";
+  import Footer from "../../../Components/Footer/Footer";
+  import Navbar from "../../../Components/Navbar/Navbar";
   import { useMediaQuery } from "react-responsive";
   import ScrollToTop from "../../../Components/ScrollToTop";
   import Logo from "../../../Components/logo";
-  import Mobilefooter from "../../../Mobilefooter";
+  import Mobilefooter from "../../../Components/Footer/Mobilefooter";
   import btbImg from "../../../assets/services/BTB/b2b.png";
   import { motion } from "framer-motion";
   import BackToTopButton from "../../../BackToTopButton";

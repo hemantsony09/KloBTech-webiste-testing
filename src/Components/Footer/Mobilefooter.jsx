@@ -1,7 +1,7 @@
 import "./Mobilefooter.css";
-import x from "./Components/assets/x.png";
-import instagram from "./Components/assets/instagram.png";
-import linkedin from "./Components/assets/linkedin.png";
+import x from "../../assets/Footer/x.png";
+import instagram from "../../assets/Footer/instagram.png";
+import linkedin from "../../assets/Footer/linkedin.png";
 import { Link } from "react-router-dom";
 function Mobilefooter() {
   return (
