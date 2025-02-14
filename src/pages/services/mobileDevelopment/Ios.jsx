@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Navbar from "../../../Nav/Navbar";
 import Footer from "../../../Components/Footer";
-import appleImg from "./assets/apple.png";
+import appleImg from "../../../assets/services/mobileDevelopment/apple.png";
 import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Scrolltotop from "../../../Components/ScrollToTop";

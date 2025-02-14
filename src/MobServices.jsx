@@ -4,9 +4,9 @@ import { Helmet } from "react-helmet-async"; // For SEO meta tags
 
 // Importing images properly
 import cmsImg from "./pages/services/CMS/assets/cms.png";
-import webdevImg from "./pages/services/webDevelopment/Assets/web.png";
-import mobileImg from "./pages/services/mobileDevelopment/assets/mobile.png";
-import btbsImg from "./assets/services/b2b.png";
+import webdevImg from "./assets/services/webDevelopment/web.png";
+import mobileImg from "./assets/services/mobileDevelopment/mobile.png";
+import btbsImg from "./assets/services/BTB/b2b.png";
 import recruitImg from "./services/assets/recruitment.png";
 import ecommerceImg from "./services/assets/ecommerce.png";
 import educationImg from "./services/assets/education.png";

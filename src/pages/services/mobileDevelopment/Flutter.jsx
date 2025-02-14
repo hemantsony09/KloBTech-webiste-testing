@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Navbar from "../../../Nav/Navbar";
 import Footer from "../../../Components/Footer";
-import flutterImg from "./assets/flutter.png";
+import flutterImg from "../../../assets/services/mobileDevelopment/flutter.png";
 import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Scrolltotop from "../../../Components/ScrollToTop";

@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import Navbar from "../../../Nav/Navbar";
 import Footer from "../../../Components/Footer";
-import reactImg from "./assets/react.png";
-import flutterImg from "./assets/flutter.png";
-import androidImg from "./assets/android.png";
-import appleImg from "./assets/apple.png";
-import mobileIMG from "./assets/mobile.png";
+import reactImg from "../../../assets/services/mobileDevelopment/android.png";
+import flutterImg from "../../../assets/services/mobileDevelopment/flutter.png";
+import androidImg from "../../../assets/services/mobileDevelopment/android.png";
+import appleImg from "../../../assets/services/mobileDevelopment/apple.png";
+import mobileIMG from "../../../assets/services/mobileDevelopment/mobile.png";
 import Mobilefooter from "../../../Mobilefooter";
 import { useMediaQuery } from "react-responsive";
 import Scrolltotop from "../../../Components/ScrollToTop";

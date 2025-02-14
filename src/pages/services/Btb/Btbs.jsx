@@ -5,7 +5,7 @@
   import ScrollToTop from "../../../Components/ScrollToTop";
   import Logo from "../../../Components/logo";
   import Mobilefooter from "../../../Mobilefooter";
-  import btbImg from "../../../assets/services/b2b.png";
+  import btbImg from "../../../assets/services/BTB/b2b.png";
   import { motion } from "framer-motion";
   import BackToTopButton from "../../../BackToTopButton";
   
