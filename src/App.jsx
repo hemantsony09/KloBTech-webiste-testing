@@ -44,7 +44,9 @@ import ContactUs from "./ContactUs";
 import Tac from "./tac";
 import Career from "./Career/Career";
 import AboutUs from "./AboutUs";
-import Hiring from "./Hiring/Hiring";
+import Hiring from "./Hiring/HiringForm";
+import HiringTable from "./Hiring/HiringTable";
+import Admin from "./Admin/Admin";
 
 function App() {
   return (
@@ -89,7 +91,9 @@ function App() {
           <Route path="/services/Mce" element={<Mce />} />
           <Route path="/services/Rs" element={<Rs />} />
           <Route path="/services/Ps" element={<Ps />} />
-          <Route path="/hiring" element={<Hiring />} />
+          <Route path="/hiring/apply" element={<Hiring />} />
+          <Route path="/hiring" element={<HiringTable />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </Router>
     </>
