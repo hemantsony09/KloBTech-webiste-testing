@@ -1,17 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Navigation from "./Navigation";
-// import Hero from "./Hero";
-// import Circle from "./Circle";
-// import CircleMotion from "./CircleMotion";
-// import RevolvingCircle from "./RevolvingCircle";
-// import MainCircle from "./Orbit";
-// import Information from "./Information";
-// import Services from "./Services";
-// import ServicesTest from "./ServicesTest";
-// import BlurBox from "./BlurBox";
-// import CursorFollower from "./CursorFollower";
-// import Testimonials from "./Testimonials";
-// import AnimatedNavbar from "./AnimatedNavbar";
 import Emp from "./Emp";
 import Home from "./pages/Home";
 import Mad from "./pages/services/mobileDevelopment/MobileAndroidDevelopment.jsx";
@@ -23,7 +10,6 @@ import Flutter from "./pages/services/mobileDevelopment/Flutter.jsx";
 import Native from "./pages/services/mobileDevelopment/Native.jsx";
 import Ios from "./pages/services/mobileDevelopment/Ios.jsx";
 import FAQPage from "./pages/FAQ/Faq.jsx";
-// import ScrollToTop from "./Components/ScrollToTop";
 import ReactJS from "./pages/services/webDevelopment/React.jsx";
 import Python from "./pages/services/webDevelopment/Python.jsx";
 import Angular from "./pages/services/webDevelopment/Angular.jsx";
@@ -93,16 +79,5 @@ function App() {
     </>
   );
 }
-// function App() {
-//   return (
-//     <Router>
-//       <Layout />
-//       <Routes>
-//         <Route path="/emp" element={<Emp />} />
-//         {/* Add other routes if needed */}
-//       </Routes>
-//     </Router>
-//   );
-// }
 
 export default App;
