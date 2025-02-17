@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import "./Services.css";
 import { Link } from "react-router-dom";
-import cmsImg from "./CMSService/assets/cms.png";
-import webdevImg from "./Web-Development/Assets/webdev.png";
-import mobileImg from "./Mobile-Development/assets/mobile.png";
-import btbsImg from "./services/assets/b2b.png";
-import recruitImg from "./services/assets/recruitment.png";
-import ecommerceImg from "./services/assets/ecommerce.png";
-import educationImg from "./services/assets/education.png";
+import cmsImg from "./assets/services/CMS/cms.png";
+import webdevImg from "./assets/services/webDevelopment/web.png";
+import mobileImg from "./assets/services/mobileDevelopment/mobile.png";
+import btbsImg from "./assets/services/BTB/b2b.png";
+import recruitImg from "./assets/services/recruitment/recruitment.png";
+import ecommerceImg from "./assets/services/ecommerce/ecommerce.png";
+import educationImg from "./assets/services/education/education.png";
 
 function Services() {
   return (
@@ -21,7 +21,7 @@ function Services() {
           <span className="secondaryTitle">But are not limited to</span>
         </div>
         <div className="serviceArea">
-          <Link to="/mad">
+          <Link to="/mobile-development">
             <motion.div
               initial={{ opacity: 0, y: 250 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -50,7 +50,7 @@ function Services() {
                     borderRadius: "2rem",
                     border: "none",
                   }}
-                  to="/mad"
+                  to="/mobile-development"
                   className="learnService"
                 >
                   Learn More
@@ -58,7 +58,7 @@ function Services() {
               </div>
             </motion.div>
           </Link>
-          <Link to="/fullStackDevelopment">
+          <Link to="/web-development">
             <motion.div
               initial={{ opacity: 0, y: 250 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -87,7 +87,7 @@ function Services() {
                     borderRadius: "2rem",
                     border: "none",
                   }}
-                  to="/fullStackDevelopment"
+                  to="/web-development"
                   className="learnService"
                 >
                   Learn More

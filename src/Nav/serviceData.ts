@@ -3,20 +3,20 @@ import { ServiceItem } from "./types";
 export const servicesData: ServiceItem[] = [
   {
     name: "Mobile Development",
-    path: "/mad",
+    path: "/mobile-development",
     subItems: [
-      { name: "React Development", path: "/mad/react" },
+      { name: "React Development", path: "/mobile-development/react" },
       {
         name: "Flutter Development",
-        path: "/mad/flutter",
+        path: "/mobile-development/flutter",
       },
       {
         name: "Android Development",
-        path: "/mad/android",
+        path: "/mobile-development/android",
       },
       {
         name: "iOS Development",
-        path: "/mad/ios",
+        path: "/mobile-development/ios",
       },
     ],
   },
@@ -41,31 +41,31 @@ export const servicesData: ServiceItem[] = [
   },
   {
     name: "Web Development",
-    path: "/fullStackDevelopment",
+    path: "/web-development",
     subItems: [
       {
         name: "React JS",
-        path: "/fullStackDevelopment/react",
+        path: "/web-development/react",
       },
       {
         name: "AI/ML",
-        path: "/fullStackDevelopment/aiml",
+        path: "/web-development/aiml",
       },
       {
         name: "Node JS",
-        path: "/fullStackDevelopment/node",
+        path: "/web-development/node",
       },
       {
         name: "Angular JS",
-        path: "/fullStackDevelopment/angular",
+        path: "/web-development/angular",
       },
       {
         name: "Python",
-        path: "/fullStackDevelopment/python",
+        path: "/web-development/python",
       },
       {
         name: "PHP",
-        path: "/fullStackDevelopment/php",
+        path: "/web-development/php",
       },
     ],
   },
