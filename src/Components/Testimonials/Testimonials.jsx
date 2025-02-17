@@ -88,7 +88,7 @@ const Reviews = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 
-                className="review-card h-[300px] !flex flex-col  justify-between items-end "
+                className="review-card h-[290px] !flex flex-col  justify-between items-end "
               >
                 <div>
 

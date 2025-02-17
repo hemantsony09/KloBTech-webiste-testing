@@ -40,7 +40,9 @@ import ContactUs from "./pages/ContactUs.jsx";
 import Tac from "./tac";
 import Career from "./pages/Career.jsx";
 import AboutUs from "./pages/about/AboutUs.jsx";
-import Hiring from "./pages/Hiring.jsx";
+import Hiring from "./pages/HiringForm";
+import HiringTable from "./Hiring/HiringTable";
+import Admin from "./Admin/Admin.jsx";
 
 function App() {
   return (
@@ -80,7 +82,9 @@ function App() {
           <Route path="/education" element={<Education />} />
           <Route path="/digitalmarketing" element={<Digitalmarketing />} />
 
-          <Route path="/hiring" element={<Hiring />} />
+          <Route path="/hiring/apply" element={<Hiring />} />
+          <Route path="/hiring" element={<HiringTable />} />
+          <Route path="/admin" element={<Admin />} />
         </Routes>
       </Router>
     </>

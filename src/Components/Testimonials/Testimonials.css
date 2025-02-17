@@ -17,7 +17,7 @@
 }
 
 .reviews-heading {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #333;
   font-weight: 700;
 }
@@ -47,6 +47,9 @@
   transition: transform 0.3s ease;
   text-align: left;
 }
+.review-feedback {
+  font-size: 1.6rem !important;
+}
 
 .review-card:hover {
   transform: translateY(-5px);
@@ -69,7 +72,10 @@
   font-size: 1.1rem;
   color: #666;
 }
-
+.slick-track div:focus-visible{
+  outline: none;
+  border: none;
+}
 /* Responsive Design */
 @media (max-width: 1024px) {
   .reviews-heading {
