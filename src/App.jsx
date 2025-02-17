@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Emp from "./Emp";
 import Home from "./pages/Home";
 import Mad from "./pages/services/mobileDevelopment/MobileAndroidDevelopment.jsx";
-import FullStackDevelopment from "./pages/services/webDevelopment/FullStackDevelopment.jsx";
+import WebDevelopment from "./pages/services/webDevelopment/WebDevelopment.jsx";
 import Btbs from "./pages/services/Btb/Btbs.jsx";
 import Rs from "./pages/services/Recruitment/Rs.jsx";
 import React from "./pages/services/mobileDevelopment/React.jsx";
@@ -51,15 +51,15 @@ function App() {
           <Route path="/mobile-development/ios" element={<Ios />} />
 
           <Route
-            path="/full-stack-development"
-            element={<FullStackDevelopment />}
+            path="/web-development"
+            element={<WebDevelopment />}
           />
-          <Route path="/full-stack-development/react" element={<ReactJS />} />
-          <Route path="/full-stack-development/node" element={<Node />} />
-          <Route path="/full-stack-development/aiml" element={<Aiml />} />
-          <Route path="/full-stack-development/python" element={<Python />} />
-          <Route path="/full-stack-development/angular" element={<Angular />} />
-          <Route path="/full-stack-development/php" element={<Php />} />
+          <Route path="/web-development/react" element={<ReactJS />} />
+          <Route path="/web-development/node" element={<Node />} />
+          <Route path="/web-development/aiml" element={<Aiml />} />
+          <Route path="/web-development/python" element={<Python />} />
+          <Route path="/web-development/angular" element={<Angular />} />
+          <Route path="/web-development/php" element={<Php />} />
 
           <Route path="/cms" element={<Cms />} />
           <Route path="/cms/shopify" element={<Shopify />} />

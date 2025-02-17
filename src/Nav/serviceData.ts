@@ -41,31 +41,31 @@ export const servicesData: ServiceItem[] = [
   },
   {
     name: "Web Development",
-    path: "/full-stack-development",
+    path: "/web-development",
     subItems: [
       {
         name: "React JS",
-        path: "/full-stack-development/react",
+        path: "/web-development/react",
       },
       {
         name: "AI/ML",
-        path: "/full-stack-development/aiml",
+        path: "/web-development/aiml",
       },
       {
         name: "Node JS",
-        path: "/full-stack-development/node",
+        path: "/web-development/node",
       },
       {
         name: "Angular JS",
-        path: "/full-stack-development/angular",
+        path: "/web-development/angular",
       },
       {
         name: "Python",
-        path: "/full-stack-development/python",
+        path: "/web-development/python",
       },
       {
         name: "PHP",
-        path: "/full-stack-development/php",
+        path: "/web-development/php",
       },
     ],
   },

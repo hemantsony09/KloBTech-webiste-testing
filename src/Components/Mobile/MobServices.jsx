@@ -24,7 +24,7 @@ const services = [
     id: 2,
     image: webdevImg,
     title: "Full Stack Development",
-    link: "/full-stack-development",
+    link: "/web-development",
     description: "Learn about our full-stack development expertise, covering front-end and back-end solutions."
   },
   {
