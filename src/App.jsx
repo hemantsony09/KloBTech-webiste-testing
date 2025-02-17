@@ -15,7 +15,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Emp from "./Emp";
 import Home from "./pages/Home";
 import Mad from "./pages/services/mobileDevelopment/MobileAndroidDevelopment.jsx";
-import Fsd from "./pages/services/webDevelopment/FullStackDevelopment.jsx";
+import FullStackDevelopment from "./pages/services/webDevelopment/FullStackDevelopment.jsx";
 import Btbs from "./pages/services/Btb/Btbs.jsx";
 import Rs from "./pages/services/Recruitment/Rs.jsx";
 import React from "./pages/services/mobileDevelopment/React.jsx";
@@ -24,7 +24,7 @@ import Native from "./pages/services/mobileDevelopment/Native.jsx";
 import Ios from "./pages/services/mobileDevelopment/Ios.jsx";
 import FAQPage from "./pages/FAQ/Faq.jsx";
 // import ScrollToTop from "./Components/ScrollToTop";
-import Reactjs from "./pages/services/webDevelopment/React.jsx";
+import ReactJS from "./pages/services/webDevelopment/React.jsx";
 import Python from "./pages/services/webDevelopment/Python.jsx";
 import Angular from "./pages/services/webDevelopment/Angular.jsx";
 import Node from "./pages/services/webDevelopment/Node.jsx";
@@ -64,13 +64,16 @@ function App() {
           <Route path="/mobile-development/android" element={<Native />} />
           <Route path="/mobile-development/ios" element={<Ios />} />
 
-          <Route path="/fullStackDevelopment" element={<Fsd />} />
-          <Route path="/fullStackDevelopment/react" element={<Reactjs />} />
-          <Route path="/fullStackDevelopment/node" element={<Node />} />
-          <Route path="/fullStackDevelopment/aiml" element={<Aiml />} />
-          <Route path="/fullStackDevelopment/python" element={<Python />} />
-          <Route path="/fullStackDevelopment/angular" element={<Angular />} />
-          <Route path="/fullStackDevelopment/php" element={<Php />} />
+          <Route
+            path="/full-stack-development"
+            element={<FullStackDevelopment />}
+          />
+          <Route path="/full-stack-development/react" element={<ReactJS />} />
+          <Route path="/full-stack-development/node" element={<Node />} />
+          <Route path="/full-stack-development/aiml" element={<Aiml />} />
+          <Route path="/full-stack-development/python" element={<Python />} />
+          <Route path="/full-stack-development/angular" element={<Angular />} />
+          <Route path="/full-stack-development/php" element={<Php />} />
 
           <Route path="/cms" element={<Cms />} />
           <Route path="/cms/shopify" element={<Shopify />} />

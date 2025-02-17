@@ -58,32 +58,32 @@ function FullStackDevelopment() {
     {
       title: "React JS",
       image: reactImg,
-      link: "/fullStackDevelopment/react",
+      link: "/full-stack-development/react",
     },
     {
       title: "AI/ML",
       image: aiImg,
-      link: "/fullStackDevelopment/aiml",
+      link: "/full-stack-development/aiml",
     },
     {
       title: "Node JS",
       image: nodeImg,
-      link: "/fullStackDevelopment/node",
+      link: "/full-stack-development/node",
     },
     {
       title: "Angular JS",
       image: angularImg,
-      link: "/fullStackDevelopment/angular",
+      link: "/full-stack-development/angular",
     },
     {
       title: "Python",
       image: pythonImg,
-      link: "/fullStackDevelopment/python",
+      link: "/full-stack-development/python",
     },
     {
       title: "PHP",
       image: phpImg,
-      link: "/fullStackDevelopment/php",
+      link: "/full-stack-development/php",
     },
   ];
 

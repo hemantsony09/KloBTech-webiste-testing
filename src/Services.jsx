@@ -58,7 +58,7 @@ function Services() {
               </div>
             </motion.div>
           </Link>
-          <Link to="/fullStackDevelopment">
+          <Link to="/full-stack-development">
             <motion.div
               initial={{ opacity: 0, y: 250 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -87,7 +87,7 @@ function Services() {
                     borderRadius: "2rem",
                     border: "none",
                   }}
-                  to="/fullStackDevelopment"
+                  to="/full-stack-development"
                   className="learnService"
                 >
                   Learn More

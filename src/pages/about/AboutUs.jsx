@@ -54,7 +54,7 @@ const KlobTech = () => {
       icon: "",
       description:
         "We specialize in delivering high-quality, secure, and cost-effective web development services, ensuring user-friendly solutions for businesses worldwide.",
-      link: "/fullStackDevelopment",
+      link: "/full-stack-development",
     },
     {
       title: "MOBILE APP",
