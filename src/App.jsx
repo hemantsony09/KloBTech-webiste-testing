@@ -41,7 +41,7 @@ import Tac from "./tac";
 import Career from "./pages/Career.jsx";
 import AboutUs from "./pages/about/AboutUs.jsx";
 import Hiring from "./pages/HiringForm";
-import HiringTable from "./Hiring/HiringTable";
+import HiringTable from "./pages/HiringTable";
 import Admin from "./Admin/Admin.jsx";
 
 function App() {

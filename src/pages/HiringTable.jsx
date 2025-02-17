@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '../Nav/Navbar';
+import Navbar from "../Components/Navbar/Navbar";
 import ShareIcon from '@mui/icons-material/Share';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 

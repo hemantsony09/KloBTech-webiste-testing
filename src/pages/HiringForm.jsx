@@ -1,6 +1,6 @@
   import { useState } from "react";
   import { motion } from "framer-motion";
-  import Navbar from "../Nav/Navbar";
+  import Navbar from "../Components/Navbar/Navbar";
   import "./Hiring.css";
 
   const jobRoles = ["Frontend Developer", "Backend Developer", "Full Stack Developer", "UI/UX Designer"];
