@@ -47,6 +47,8 @@ import AboutUs from "./AboutUs";
 import Hiring from "./Hiring/HiringForm";
 import HiringTable from "./Hiring/HiringTable";
 import Admin from "./Admin/Admin";
+import ApplyPage from "./Admin/component/ApplyPage.jsx"
+import ShortlistedPage from "./Admin/component/ShortlistedPage.jsx";
 
 function App() {
   return (
@@ -94,6 +96,8 @@ function App() {
           <Route path="/hiring/apply" element={<Hiring />} />
           <Route path="/hiring" element={<HiringTable />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/apply/:id" element={<ApplyPage />} />
+          <Route path="/shortlisted/:id" element={<ShortlistedPage />} />
         </Routes>
       </Router>
     </>

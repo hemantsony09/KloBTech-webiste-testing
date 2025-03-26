@@ -1,8 +1,9 @@
-import React from 'react'
-
+import AdminDashboard from './component/AdminDashboard'
 function Admin() {
   return (
-    <div>Admin</div>
+    <>
+    <AdminDashboard/>
+    </>
   )
 }
 
